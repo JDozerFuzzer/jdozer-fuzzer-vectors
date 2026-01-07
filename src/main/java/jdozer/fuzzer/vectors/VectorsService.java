@@ -18,6 +18,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.BooleanNode;
+import com.fasterxml.jackson.databind.node.IntNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.TextNode;
 
@@ -152,9 +153,10 @@ public class VectorsService {
             root = this.setEncodeData(root, dataVector);
 
             root.replace("valid", BooleanNode.FALSE);
-            root.replace("message", new TextNode(vector.getSummary()));
+            root.replace("message", new TextNode(vector.getDescription()));
             root.replace("id", new TextNode(uuid.toString()));
             root.replace("property", new TextNode(path.toString()));
+            root.set("vectorId", new IntNode(vector.getId()));
 
             return root.toString();
 

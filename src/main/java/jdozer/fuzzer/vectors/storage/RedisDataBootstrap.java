@@ -20,7 +20,7 @@ import redis.clients.jedis.Jedis;
 
 public class RedisDataBootstrap {
 
-    private static String INIT_DATA_PATH = "vectors.json";
+    private static String INIT_DATA_PATH = "vectors-v2.json";
     private Gson gson = new Gson();
     private Jedis jedis;
     private final KeyManager keyManager = new KeyManager();
@@ -52,6 +52,7 @@ public class RedisDataBootstrap {
             }
 
             Log.info("Data loaded into Redis successfully!");
+            Log.info("from: " + INIT_DATA_PATH);
 
         } catch (NoSuchFileException e) {
             Log.error(e.getMessage());

@@ -17,9 +17,14 @@ import lombok.Setter;
 public class Vector {
 
     private Integer id;
-    private String summary;
     private String description;
     private String script;
     private String type;
+    private String owaspCategory;
+    private String subcategory;
+    private String context;
+    private String tags;
+    private String technique;
+    private String browserSpecific;
 
 }

@@ -19,7 +19,6 @@ import lombok.Setter;
 public class EventData {
 
     private UUID fuzzerId;
-    private UUID owner;
     private String messages;
 
 }

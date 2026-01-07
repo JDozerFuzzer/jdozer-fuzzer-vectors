@@ -38,7 +38,6 @@ public class MessageMediator {
 
             EventData eventData = new EventData();
             eventData.setFuzzerId(fuzzerId);
-            eventData.setOwner(UUID.fromString(jsonNode.get("owner").asText()));
             eventData.setMessages("Weapon is loaded!");
 
             this.eventService.outbound(EventType.LOAD_SUCCESS, eventData, fuzzerId, message.getTraceId());
