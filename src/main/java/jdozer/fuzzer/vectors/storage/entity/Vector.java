@@ -20,11 +20,11 @@ public class Vector {
     private String description;
     private String script;
     private String type;
-    private String owaspCategory;
+    private String owasp_category;
     private String subcategory;
     private String context;
     private String tags;
     private String technique;
-    private String browserSpecific;
+    private String browser_specific;
 
 }
