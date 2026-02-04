@@ -15,6 +15,7 @@ import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import jdozer.fuzzer.vectors.async.event.SeederSuccessful;
 import jdozer.fuzzer.vectors.storage.RedisDataBootstrap;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPubSub;
@@ -31,11 +32,11 @@ public class RedisEventListener {
     private final String channel;
 
     private static final String ENTITY_TYPE = "fuzzer-seeder";
-    private static final String EVENT_TYPE = "build-success";
+    private static final String EVENT_TYPE = "builder-successful";
 
     public RedisEventListener(
             @ConfigProperty(name = "jdozer.fuzzer.vectors.redis.uri") String uri,
-            @ConfigProperty(name = "jdozer.fuzzer.vectors.redis.stream.name") String channel) {
+            @ConfigProperty(name = "jdozer.fuzzer.vectors.channels.seeder") String channel) {
         this.uri = uri;
         this.channel = channel;
     }
@@ -67,9 +68,9 @@ public class RedisEventListener {
                         Log.debug("Received message from channel: " + channel);
                         Gson gson = new Gson();
                         try {
-                            Message message = gson.fromJson(event, Message.class);
-                            if (ENTITY_TYPE.equals(message.getEntityType())
-                                    && EVENT_TYPE.equals(message.getEventType())) {
+                            SeederSuccessful message = gson.fromJson(event, SeederSuccessful.class);
+                            if (ENTITY_TYPE.equals(message.getHeaders().getEntityType())
+                                    && EVENT_TYPE.equals(message.getHeaders().getEventType())) {
                                 messageMediator.processMessage(message);
                             } else {
                                 Log.debug("Ignoring message: " + message.toString());
@@ -81,7 +82,7 @@ public class RedisEventListener {
                     }
 
                 };
-                
+
                 this.listenerJedis.subscribe(pubSub, channel);
             } catch (Exception e) {
                 Log.error("Error in Redis Event listener: " + e.getMessage());
@@ -108,5 +109,5 @@ public class RedisEventListener {
     private void initializeData() {
         RedisDataBootstrap redisDataBootstrap = new RedisDataBootstrap(this.listenerJedis);
         redisDataBootstrap.init();
-    }  
+    }
 }

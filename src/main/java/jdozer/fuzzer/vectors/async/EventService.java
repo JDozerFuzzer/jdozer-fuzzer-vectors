@@ -16,6 +16,9 @@ import com.google.gson.Gson;
 import io.quarkus.logging.Log;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import jdozer.fuzzer.vectors.async.event.Headers;
+import jdozer.fuzzer.vectors.async.event.SeederSuccessful;
+import jdozer.fuzzer.vectors.async.event.VectorsEvent;
 import jdozer.fuzzer.vectors.storage.RedisService;
 
 @ApplicationScoped
@@ -26,15 +29,15 @@ public class EventService {
     @Inject
     private RedisService redisService;
 
-    private static final String IN_ENTITY_TYPE = "fuzzer-core";
-    private static final String IN_EVENT_TYPE_SUCCESS = "build-success";
+    private static final String SEEDER_ENTITY_TYPE = "fuzzer-seeder";
+    private static final String SEEDER_EVENT_TYPE_SUCCESS = "builder-successful";
 
     public void inbound(String event) {
         Gson gson = new Gson();
         try {
-            Message message = gson.fromJson(event, Message.class);
-            if (IN_ENTITY_TYPE.equals(message.getEntityType())
-                    && IN_EVENT_TYPE_SUCCESS.equals(message.getEventType())) {
+            SeederSuccessful message = gson.fromJson(event, SeederSuccessful.class);
+            if (SEEDER_ENTITY_TYPE.equals(message.getHeaders().getEntityType())
+                    && SEEDER_EVENT_TYPE_SUCCESS.equals(message.getHeaders().getEventType())) {
                 messageMediator.processMessage(message);
             } else {
                 Log.debug("Ignoring message: " + message.toString());
@@ -55,8 +58,26 @@ public class EventService {
         message.setEntityType(ENTITY_TYPE);
         message.setEventType(eventType.getName());
         message.setData(this.encode(data));
-        
+
         this.redisService.publish(this.CHANNEL, new Gson().toJson(message));
+
+    }
+
+    public void outbound(EventType eventType, Object payload, UUID entityId) {
+
+        Headers headers = new Headers();
+        headers.setId(UUID.randomUUID());
+        headers.setTimestamp(Instant.now().getEpochSecond());
+        headers.setVersion("1.0.0");
+        headers.setEntityId(entityId);
+        headers.setEntityType(ENTITY_TYPE);
+        headers.setEventType(eventType.getName());
+
+        VectorsEvent vectorsEvent = new VectorsEvent();
+        vectorsEvent.setHeaders(headers);
+        vectorsEvent.setPayload(payload);
+
+        this.redisService.publish(this.CHANNEL, new Gson().toJson(vectorsEvent));
 
     }
 
@@ -67,14 +88,18 @@ public class EventService {
     }
 
     @Inject
-    @ConfigProperty(name = "jdozer.fuzzer.vectors.redis.stream.name")
+    @ConfigProperty(name = "jdozer.fuzzer.vectors.channels.vectors")
     private String CHANNEL;
 
     private static final String ENTITY_TYPE = "fuzzer-vectors";
+
     public enum EventType {
 
+        BUILDER_SUCCESSFUL("builder-successful"),
         LOAD_SUCCESS("load-success"),
-        LOAD_FAILURE("load-failure");
+        LOAD_FAILURE("load-failure"),
+        VECTOR_CREATED("vector-created"),
+        ERROR("error");
 
         private String name;
 

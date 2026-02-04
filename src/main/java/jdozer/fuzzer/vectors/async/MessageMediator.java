@@ -5,17 +5,14 @@
  */
 package jdozer.fuzzer.vectors.async;
 
-import java.util.Base64;
-import java.util.UUID;
-
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import io.quarkus.logging.Log;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jdozer.fuzzer.vectors.VectorsService;
 import jdozer.fuzzer.vectors.async.EventService.EventType;
+import jdozer.fuzzer.vectors.async.event.ErrorPayload;
+import jdozer.fuzzer.vectors.async.event.SeederSuccessful;
+import jdozer.fuzzer.vectors.async.event.VectorsSuccessfulPayload;
 import lombok.AllArgsConstructor;
 
 @ApplicationScoped
@@ -27,26 +24,29 @@ public class MessageMediator {
     @Inject
     private VectorsService vectorsService;
 
-    public void processMessage(Message message) {
+    public void processMessage(SeederSuccessful message) {
         try {
 
-            byte[] data = Base64.getDecoder().decode(message.getData());
-            String dataString = new String(data);
-            JsonNode jsonNode = (new ObjectMapper()).readTree(dataString);
-            UUID fuzzerId = UUID.fromString(jsonNode.get("id").asText());
-            this.vectorsService.createVectors(fuzzerId);
+            // byte[] data = Base64.getDecoder().decode(message.getData());
+            // String dataString = new String(data);
+            // JsonNode jsonNode = (new ObjectMapper()).readTree(dataString);
+            // UUID fuzzerId = UUID.fromString(jsonNode.get("id").asText());
+            this.vectorsService.createVectors(message.getPayload().getFuzzerId());
 
-            EventData eventData = new EventData();
-            eventData.setFuzzerId(fuzzerId);
-            eventData.setMessages("Weapon is loaded!");
+            VectorsSuccessfulPayload vectorsSuccessfulPayload = new VectorsSuccessfulPayload();
+            vectorsSuccessfulPayload.setFuzzerId(message.getPayload().getFuzzerId());
 
-            this.eventService.outbound(EventType.LOAD_SUCCESS, eventData, fuzzerId, message.getTraceId());
+            this.eventService.outbound(EventType.BUILDER_SUCCESSFUL, vectorsSuccessfulPayload,
+                    message.getPayload().getFuzzerId());
 
         } catch (Exception e) {
             Log.error("Error processing message: " + e.getMessage());
-            EventException eventException = new EventException("Error processing data.", e.getMessage());
-            this.eventService.outbound(EventType.LOAD_FAILURE, eventException, message.getEntityId(),
-                    message.getTraceId());
+            ErrorPayload errorPayload = new ErrorPayload();
+            errorPayload.setFuzzerId(message.getPayload().getFuzzerId());
+            errorPayload.setMessage("Error to add vectors: " + e.getMessage());
+            errorPayload.setDetails(e.toString());
+            errorPayload.setAction("continue");
+            this.eventService.outbound(EventType.ERROR, errorPayload, message.getHeaders().getEntityId());
             e.printStackTrace();
         }
     }

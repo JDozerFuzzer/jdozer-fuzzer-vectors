@@ -25,6 +25,9 @@ import com.fasterxml.jackson.databind.node.TextNode;
 import io.quarkus.logging.Log;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import jdozer.fuzzer.vectors.async.EventService;
+import jdozer.fuzzer.vectors.async.EventService.EventType;
+import jdozer.fuzzer.vectors.async.event.VectorCreated;
 import jdozer.fuzzer.vectors.dto.Operation;
 import jdozer.fuzzer.vectors.dto.OperationParameter;
 import jdozer.fuzzer.vectors.storage.KeyManager;
@@ -39,6 +42,8 @@ public class VectorsService {
 
     @Inject
     private StorageService storageService;
+    @Inject
+    private EventService eventService;
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
     private final KeyManager keyManager = new KeyManager();
@@ -83,10 +88,14 @@ public class VectorsService {
                             try {
                                 UUID uuid = UUID.randomUUID();
                                 String vectorDummy = this.buildVector(v, parameter.getDummy(), attr, uuid);
-                                this.vectorSave(operation.getName(), parameter.getContext(), uuid, vectorDummy);
+                                String key = this.vectorSave(operation.getName(), parameter.getContext(), uuid,
+                                        vectorDummy);
+                                this.eventHandler(EventType.VECTOR_CREATED,
+                                        new VectorCreated(fuzzerId, key, operation.getName(), parameter.getContext()),
+                                        fuzzerId);
                             } catch (VectorException e) {
-                                Log.trace("Create dummy vector failed! " + e.getMessage());
-                                Log.trace(operation.toString());
+                                Log.error("Create dummy vector failed! " + e.getMessage());
+                                Log.error(operation.toString());
                             }
                         });
                     });
@@ -221,10 +230,6 @@ public class VectorsService {
         return this.storageService.getRndFuzzVector(cant);
     }
 
-    private int getCantDummy(String operationName, String context) {
-        return this.storageService.getDummyCant(this.fuzzerService.getFuzzerId(), operationName, context);
-    }
-
     /**
      * Temporal implementation
      * 
@@ -233,6 +238,14 @@ public class VectorsService {
      */
     private int getVectorsCant(List<String> pathAtributes) {
         return pathAtributes.size() * 10;
+    }
+
+    private void eventHandler(EventType eventType, Object payload, UUID fuzzerId) {
+        try {
+            this.eventService.outbound(eventType, payload, fuzzerId);
+        } catch (Exception e) {
+            Log.error("VectorsService.eventHandler(): Exception: " + e.getMessage());
+        }
     }
 
 }
